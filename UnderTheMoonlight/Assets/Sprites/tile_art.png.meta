@@ -1,0 +1,7028 @@
+fileFormatVersion: 2
+guid: 5a50566d3a5389545beeb9a614cd2314
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4197891851588915005
+    second: mansion_tiles_0
+  - first:
+      213: -6515891850529160589
+    second: mansion_tiles_1
+  - first:
+      213: 7585943567236984388
+    second: mansion_tiles_2
+  - first:
+      213: -3101633772728390799
+    second: mansion_tiles_3
+  - first:
+      213: 2537664159013398478
+    second: mansion_tiles_4
+  - first:
+      213: -5707133646858404304
+    second: mansion_tiles_5
+  - first:
+      213: 4684333725919997782
+    second: mansion_tiles_6
+  - first:
+      213: 1202359674453965383
+    second: mansion_tiles_7
+  - first:
+      213: 8502454217675210879
+    second: mansion_tiles_8
+  - first:
+      213: -3518948673915860751
+    second: mansion_tiles_9
+  - first:
+      213: 5133649049419839000
+    second: mansion_tiles_10
+  - first:
+      213: -8369525918566959425
+    second: mansion_tiles_11
+  - first:
+      213: 6021953316644102802
+    second: mansion_tiles_12
+  - first:
+      213: 2625932362662284277
+    second: mansion_tiles_13
+  - first:
+      213: -1010401677545306717
+    second: mansion_tiles_14
+  - first:
+      213: 8544607481778246877
+    second: mansion_tiles_15
+  - first:
+      213: -6868932237244828412
+    second: mansion_tiles_16
+  - first:
+      213: -1774379788053007638
+    second: mansion_tiles_17
+  - first:
+      213: -4991182223668633947
+    second: mansion_tiles_18
+  - first:
+      213: 3571955259444109121
+    second: mansion_tiles_19
+  - first:
+      213: -2955746233662147566
+    second: mansion_tiles_20
+  - first:
+      213: 7433013316987024423
+    second: mansion_tiles_21
+  - first:
+      213: -1490585331726150079
+    second: mansion_tiles_22
+  - first:
+      213: -5243525062394814553
+    second: mansion_tiles_23
+  - first:
+      213: -8330489078621137214
+    second: mansion_tiles_24
+  - first:
+      213: -3934016089310170498
+    second: mansion_tiles_25
+  - first:
+      213: -7040660615778105895
+    second: mansion_tiles_26
+  - first:
+      213: -6638648182730729231
+    second: mansion_tiles_27
+  - first:
+      213: -5033725523425279829
+    second: mansion_tiles_28
+  - first:
+      213: -5876632320994657358
+    second: mansion_tiles_29
+  - first:
+      213: -6926042030165454766
+    second: mansion_tiles_30
+  - first:
+      213: 7581656499078688139
+    second: mansion_tiles_31
+  - first:
+      213: 2072254083895329911
+    second: mansion_tiles_32
+  - first:
+      213: 26910331241137763
+    second: mansion_tiles_33
+  - first:
+      213: 2648130839213412925
+    second: mansion_tiles_34
+  - first:
+      213: 3782675350515817056
+    second: mansion_tiles_35
+  - first:
+      213: -3725676128974347537
+    second: mansion_tiles_36
+  - first:
+      213: -3134194491161144560
+    second: mansion_tiles_37
+  - first:
+      213: 1219980419298182992
+    second: mansion_tiles_38
+  - first:
+      213: -8317381442504389166
+    second: mansion_tiles_39
+  - first:
+      213: 7074604856578226992
+    second: mansion_tiles_40
+  - first:
+      213: -8418327573091603065
+    second: mansion_tiles_41
+  - first:
+      213: -1495700538736375968
+    second: mansion_tiles_42
+  - first:
+      213: -917113427306300350
+    second: mansion_tiles_43
+  - first:
+      213: 2316512774195314004
+    second: mansion_tiles_44
+  - first:
+      213: -4202567150270946756
+    second: mansion_tiles_45
+  - first:
+      213: -3048338345109398542
+    second: mansion_tiles_46
+  - first:
+      213: 3307921576471518772
+    second: mansion_tiles_47
+  - first:
+      213: 5536093872535646118
+    second: mansion_tiles_48
+  - first:
+      213: -3894978851624819831
+    second: mansion_tiles_49
+  - first:
+      213: 7333205372608251914
+    second: mansion_tiles_50
+  - first:
+      213: 5165844829543412372
+    second: mansion_tiles_51
+  - first:
+      213: -6707637349253040364
+    second: mansion_tiles_52
+  - first:
+      213: 3527536229924709896
+    second: mansion_tiles_53
+  - first:
+      213: 395311684526224778
+    second: mansion_tiles_54
+  - first:
+      213: 8566392580507254647
+    second: mansion_tiles_55
+  - first:
+      213: -6884741578982544465
+    second: mansion_tiles_56
+  - first:
+      213: 3881526963732733517
+    second: mansion_tiles_57
+  - first:
+      213: -6463519329300759599
+    second: mansion_tiles_58
+  - first:
+      213: 3060663424356233163
+    second: mansion_tiles_59
+  - first:
+      213: 3331582234065273494
+    second: mansion_tiles_60
+  - first:
+      213: 7227204186325467262
+    second: mansion_tiles_61
+  - first:
+      213: 2125247875911573124
+    second: mansion_tiles_62
+  - first:
+      213: -7937151477310564971
+    second: mansion_tiles_63
+  - first:
+      213: -4225880341418892823
+    second: mansion_tiles_64
+  - first:
+      213: -7039016891367101674
+    second: mansion_tiles_65
+  - first:
+      213: -2671175374726842064
+    second: mansion_tiles_66
+  - first:
+      213: -551858137459770558
+    second: mansion_tiles_67
+  - first:
+      213: 5125798297968257786
+    second: mansion_tiles_68
+  - first:
+      213: 9188529609705046923
+    second: mansion_tiles_69
+  - first:
+      213: -5715721088422069985
+    second: mansion_tiles_70
+  - first:
+      213: 6622844832542970749
+    second: mansion_tiles_71
+  - first:
+      213: 3753171927654465718
+    second: mansion_tiles_72
+  - first:
+      213: -1810306637976715610
+    second: mansion_tiles_73
+  - first:
+      213: -1543561782864617167
+    second: mansion_tiles_74
+  - first:
+      213: 5234422749244033784
+    second: mansion_tiles_75
+  - first:
+      213: 5022660054895833003
+    second: mansion_tiles_76
+  - first:
+      213: -4356467757872016679
+    second: mansion_tiles_77
+  - first:
+      213: -2688441278674656934
+    second: mansion_tiles_78
+  - first:
+      213: -1642713780456338509
+    second: mansion_tiles_79
+  - first:
+      213: 5782009481305388038
+    second: mansion_tiles_80
+  - first:
+      213: 3466605372246658060
+    second: mansion_tiles_81
+  - first:
+      213: -2857538816718936000
+    second: mansion_tiles_82
+  - first:
+      213: 1663313964455710841
+    second: mansion_tiles_83
+  - first:
+      213: -1953007758367523145
+    second: mansion_tiles_84
+  - first:
+      213: 3261128450610424690
+    second: mansion_tiles_85
+  - first:
+      213: -4744885157892627598
+    second: mansion_tiles_86
+  - first:
+      213: 1324771654835968333
+    second: mansion_tiles_87
+  - first:
+      213: 7793031130304028763
+    second: mansion_tiles_88
+  - first:
+      213: -7560184243267665921
+    second: mansion_tiles_89
+  - first:
+      213: 8477303370162134071
+    second: mansion_tiles_90
+  - first:
+      213: -6870550130326926808
+    second: mansion_tiles_91
+  - first:
+      213: 1266918353834697756
+    second: mansion_tiles_92
+  - first:
+      213: -5054981366269637558
+    second: mansion_tiles_93
+  - first:
+      213: -1340705947981390322
+    second: mansion_tiles_94
+  - first:
+      213: 6879898202045785580
+    second: mansion_tiles_95
+  - first:
+      213: 8546351962736097211
+    second: mansion_tiles_96
+  - first:
+      213: -3725593068487037094
+    second: mansion_tiles_97
+  - first:
+      213: 9030891134745299260
+    second: mansion_tiles_98
+  - first:
+      213: -2313335351033581706
+    second: mansion_tiles_99
+  - first:
+      213: 2968772151479774699
+    second: mansion_tiles_100
+  - first:
+      213: -4039464805596171632
+    second: mansion_tiles_101
+  - first:
+      213: 6242061403832167082
+    second: mansion_tiles_102
+  - first:
+      213: -5294205309688934831
+    second: mansion_tiles_103
+  - first:
+      213: 436854280950033786
+    second: mansion_tiles_104
+  - first:
+      213: 1067576125999185110
+    second: mansion_tiles_105
+  - first:
+      213: 5074409870281360129
+    second: mansion_tiles_106
+  - first:
+      213: -1080220036471002794
+    second: mansion_tiles_107
+  - first:
+      213: 7417827500230333336
+    second: mansion_tiles_108
+  - first:
+      213: -3624579970640647246
+    second: mansion_tiles_109
+  - first:
+      213: 7448436880204006569
+    second: mansion_tiles_110
+  - first:
+      213: -8857852110243540444
+    second: mansion_tiles_111
+  - first:
+      213: 627095427950286756
+    second: mansion_tiles_112
+  - first:
+      213: -5867520467723310170
+    second: mansion_tiles_113
+  - first:
+      213: 97471157095856449
+    second: mansion_tiles_114
+  - first:
+      213: -4355247003244234278
+    second: mansion_tiles_115
+  - first:
+      213: 2268763875133785722
+    second: mansion_tiles_116
+  - first:
+      213: -6703573480545479424
+    second: mansion_tiles_117
+  - first:
+      213: -520971934477911186
+    second: mansion_tiles_118
+  - first:
+      213: 549129265467900992
+    second: mansion_tiles_119
+  - first:
+      213: -890325126543606777
+    second: mansion_tiles_120
+  - first:
+      213: 4174527386203503162
+    second: mansion_tiles_121
+  - first:
+      213: 8754909699160380526
+    second: mansion_tiles_122
+  - first:
+      213: 8136460261569422897
+    second: mansion_tiles_123
+  - first:
+      213: 7268472532527656800
+    second: mansion_tiles_124
+  - first:
+      213: -8302882182716835582
+    second: mansion_tiles_125
+  - first:
+      213: 7978493057072758430
+    second: mansion_tiles_126
+  - first:
+      213: 6949366620821371988
+    second: mansion_tiles_127
+  - first:
+      213: 582658541077648474
+    second: mansion_tiles_128
+  - first:
+      213: -5568831827383267532
+    second: mansion_tiles_129
+  - first:
+      213: 4562678510828327763
+    second: mansion_tiles_130
+  - first:
+      213: -9148926013080895960
+    second: mansion_tiles_131
+  - first:
+      213: -5412563312096809243
+    second: mansion_tiles_132
+  - first:
+      213: 950814526524441648
+    second: mansion_tiles_133
+  - first:
+      213: 5486995471801425495
+    second: mansion_tiles_134
+  - first:
+      213: 2957035045170252680
+    second: mansion_tiles_135
+  - first:
+      213: -6048330513835113044
+    second: mansion_tiles_136
+  - first:
+      213: -8383977791698581958
+    second: mansion_tiles_137
+  - first:
+      213: -888638504166594590
+    second: mansion_tiles_138
+  - first:
+      213: -5845841134209919022
+    second: mansion_tiles_139
+  - first:
+      213: 983389191056115171
+    second: mansion_tiles_140
+  - first:
+      213: -921835451137715167
+    second: mansion_tiles_141
+  - first:
+      213: 643759234034222276
+    second: mansion_tiles_142
+  - first:
+      213: 4371018848860733845
+    second: mansion_tiles_143
+  - first:
+      213: -8745013027179326301
+    second: mansion_tiles_144
+  - first:
+      213: -8283786771150108711
+    second: mansion_tiles_145
+  - first:
+      213: 5125267506860153093
+    second: mansion_tiles_146
+  - first:
+      213: 6754407958333619515
+    second: mansion_tiles_147
+  - first:
+      213: -4449995189221172647
+    second: mansion_tiles_148
+  - first:
+      213: 461154956019072794
+    second: mansion_tiles_149
+  - first:
+      213: 180564299016068857
+    second: mansion_tiles_150
+  - first:
+      213: 8836380181081694729
+    second: mansion_tiles_151
+  - first:
+      213: 3463311698427532842
+    second: mansion_tiles_152
+  - first:
+      213: -1786709371504617346
+    second: mansion_tiles_153
+  - first:
+      213: -7997448415553237154
+    second: mansion_tiles_154
+  - first:
+      213: 8978172071346174698
+    second: mansion_tiles_155
+  - first:
+      213: 6533694039371849762
+    second: mansion_tiles_156
+  - first:
+      213: -8604044815551602608
+    second: mansion_tiles_157
+  - first:
+      213: 4575140893521337009
+    second: mansion_tiles_158
+  - first:
+      213: -3363478948864231683
+    second: mansion_tiles_159
+  - first:
+      213: -3888044048520411595
+    second: mansion_tiles_160
+  - first:
+      213: -338328634842192726
+    second: mansion_tiles_161
+  - first:
+      213: -8724656604743854637
+    second: mansion_tiles_162
+  - first:
+      213: -1708204442440015128
+    second: mansion_tiles_163
+  - first:
+      213: -874506622422467856
+    second: mansion_tiles_164
+  - first:
+      213: -1847019473913096920
+    second: mansion_tiles_165
+  - first:
+      213: 3225086779098207732
+    second: mansion_tiles_166
+  - first:
+      213: 1015942992703187278
+    second: mansion_tiles_167
+  - first:
+      213: 8921923804565790250
+    second: mansion_tiles_168
+  - first:
+      213: 7939048033298467960
+    second: mansion_tiles_169
+  - first:
+      213: 4673732211337497092
+    second: mansion_tiles_170
+  - first:
+      213: -3416622581397021446
+    second: mansion_tiles_171
+  - first:
+      213: -1294440388992874541
+    second: mansion_tiles_172
+  - first:
+      213: -1790642371206703109
+    second: mansion_tiles_173
+  - first:
+      213: -1732675051166437867
+    second: mansion_tiles_174
+  - first:
+      213: 4031312294401106757
+    second: mansion_tiles_175
+  - first:
+      213: -2802828301492277586
+    second: mansion_tiles_176
+  - first:
+      213: -368345331477268567
+    second: mansion_tiles_177
+  - first:
+      213: 1464427931849666660
+    second: mansion_tiles_178
+  - first:
+      213: 7991571611315198522
+    second: mansion_tiles_179
+  - first:
+      213: 691125959144953794
+    second: mansion_tiles_180
+  - first:
+      213: 8723188675696383979
+    second: mansion_tiles_181
+  - first:
+      213: -1206424313255980668
+    second: mansion_tiles_182
+  - first:
+      213: 5361329715071257491
+    second: mansion_tiles_183
+  - first:
+      213: 1721703697085277704
+    second: mansion_tiles_184
+  - first:
+      213: -1396247866117079279
+    second: mansion_tiles_185
+  - first:
+      213: 5947089252688940540
+    second: mansion_tiles_186
+  - first:
+      213: 8567067649452977231
+    second: mansion_tiles_187
+  - first:
+      213: 2873162650194444449
+    second: mansion_tiles_188
+  - first:
+      213: -6776771919685243005
+    second: mansion_tiles_189
+  - first:
+      213: 1773096720204671721
+    second: mansion_tiles_190
+  - first:
+      213: 3992751417720526977
+    second: mansion_tiles_191
+  - first:
+      213: -1239175221209686134
+    second: mansion_tiles_192
+  - first:
+      213: 285105509745975924
+    second: mansion_tiles_193
+  - first:
+      213: 6668532846313839152
+    second: mansion_tiles_194
+  - first:
+      213: -1867541737196347342
+    second: mansion_tiles_195
+  - first:
+      213: -6327661860712992465
+    second: mansion_tiles_196
+  - first:
+      213: 2827102814262869859
+    second: mansion_tiles_197
+  - first:
+      213: -5135040371695993964
+    second: mansion_tiles_198
+  - first:
+      213: 7342736416914901632
+    second: mansion_tiles_199
+  - first:
+      213: 4512253529873495671
+    second: mansion_tiles_200
+  - first:
+      213: -3227785855113672193
+    second: mansion_tiles_201
+  - first:
+      213: -6983654825517747315
+    second: mansion_tiles_202
+  - first:
+      213: -8459281503414096256
+    second: mansion_tiles_203
+  - first:
+      213: 8123068573782682491
+    second: mansion_tiles_204
+  - first:
+      213: 8359510189943686509
+    second: mansion_tiles_205
+  - first:
+      213: 1753474499115842732
+    second: mansion_tiles_206
+  - first:
+      213: -6184548387418084616
+    second: mansion_tiles_207
+  - first:
+      213: -9002126131100601024
+    second: mansion_tiles_208
+  - first:
+      213: -2239878049750588120
+    second: mansion_tiles_209
+  - first:
+      213: -6145652771707961567
+    second: mansion_tiles_210
+  - first:
+      213: 2378231234673581599
+    second: mansion_tiles_211
+  - first:
+      213: -8089515390269852394
+    second: mansion_tiles_212
+  - first:
+      213: -7495853205697005180
+    second: mansion_tiles_213
+  - first:
+      213: 1175800225131586995
+    second: mansion_tiles_214
+  - first:
+      213: 576093714905987196
+    second: mansion_tiles_215
+  - first:
+      213: -1838388886253038997
+    second: mansion_tiles_216
+  - first:
+      213: 1754386581222234094
+    second: mansion_tiles_217
+  - first:
+      213: 3812241150586361647
+    second: mansion_tiles_218
+  - first:
+      213: -1100169363946016525
+    second: mansion_tiles_219
+  - first:
+      213: -6212522445487112889
+    second: mansion_tiles_220
+  - first:
+      213: 6601717917701006962
+    second: mansion_tiles_221
+  - first:
+      213: 5787650444994597050
+    second: mansion_tiles_222
+  - first:
+      213: -4650043432528504578
+    second: mansion_tiles_223
+  - first:
+      213: -8951561136914338762
+    second: mansion_tiles_224
+  - first:
+      213: 7155462496843806672
+    second: mansion_tiles_225
+  - first:
+      213: 2600893671850854572
+    second: mansion_tiles_226
+  - first:
+      213: 6629961123098419398
+    second: mansion_tiles_227
+  - first:
+      213: -3444514833949068843
+    second: mansion_tiles_228
+  - first:
+      213: -8108248935085937452
+    second: mansion_tiles_229
+  - first:
+      213: 3750126966183573072
+    second: mansion_tiles_230
+  - first:
+      213: -1085698456217289919
+    second: mansion_tiles_231
+  - first:
+      213: -3973969508305338584
+    second: mansion_tiles_232
+  - first:
+      213: -9054071181825147373
+    second: mansion_tiles_233
+  - first:
+      213: 7042958634027531612
+    second: mansion_tiles_234
+  - first:
+      213: -88345098064874388
+    second: mansion_tiles_235
+  - first:
+      213: -1180450827943908129
+    second: mansion_tiles_236
+  - first:
+      213: 1615207822227677377
+    second: mansion_tiles_237
+  - first:
+      213: 3340638544678344740
+    second: mansion_tiles_238
+  - first:
+      213: -9204634610078302197
+    second: mansion_tiles_239
+  - first:
+      213: -2998724460999862455
+    second: mansion_tiles_240
+  - first:
+      213: -6550182399896054943
+    second: mansion_tiles_241
+  - first:
+      213: 6046604295586640366
+    second: mansion_tiles_242
+  - first:
+      213: 7490552335228274049
+    second: mansion_tiles_243
+  - first:
+      213: -4905901228474861155
+    second: mansion_tiles_244
+  - first:
+      213: -3135969927391362198
+    second: mansion_tiles_245
+  - first:
+      213: 1513380749153460952
+    second: mansion_tiles_246
+  - first:
+      213: -6110027804285767390
+    second: mansion_tiles_247
+  - first:
+      213: -4229254164404271780
+    second: mansion_tiles_248
+  - first:
+      213: 1989625573458801107
+    second: mansion_tiles_249
+  - first:
+      213: 8365592268426296106
+    second: mansion_tiles_250
+  - first:
+      213: -2667482138658063218
+    second: mansion_tiles_251
+  - first:
+      213: 6774341504095838522
+    second: mansion_tiles_252
+  - first:
+      213: 4955669279286927067
+    second: mansion_tiles_253
+  - first:
+      213: 2533287903687841571
+    second: mansion_tiles_254
+  - first:
+      213: -4277886773120751507
+    second: mansion_tiles_255
+  - first:
+      213: -2807482986616829839
+    second: mansion_tiles_0
+  - first:
+      213: 6929904023654223479
+    second: mansion_tiles_1
+  - first:
+      213: 7240204389687947182
+    second: mansion_tiles_2
+  - first:
+      213: 295848407653281427
+    second: mansion_tiles_3
+  - first:
+      213: -6401754892929219916
+    second: mansion_tiles_4
+  - first:
+      213: -3087821808419890790
+    second: mansion_tiles_5
+  - first:
+      213: 9212433499045279472
+    second: mansion_tiles_6
+  - first:
+      213: -7287467792291487184
+    second: mansion_tiles_7
+  - first:
+      213: -2472986815927019642
+    second: mansion_tiles_8
+  - first:
+      213: 6469796010764658461
+    second: mansion_tiles_9
+  - first:
+      213: 5574350097469665030
+    second: mansion_tiles_10
+  - first:
+      213: -7860266857308652165
+    second: mansion_tiles_11
+  - first:
+      213: 6552230782129897763
+    second: mansion_tiles_12
+  - first:
+      213: 5857913077428240648
+    second: mansion_tiles_13
+  - first:
+      213: -1979632089655967165
+    second: mansion_tiles_14
+  - first:
+      213: -7584486209392855058
+    second: mansion_tiles_15
+  - first:
+      213: -6144092799978033461
+    second: mansion_tiles_16
+  - first:
+      213: 3633999021929927982
+    second: mansion_tiles_17
+  - first:
+      213: 8111020240101378909
+    second: mansion_tiles_18
+  - first:
+      213: 2944963436879162712
+    second: mansion_tiles_19
+  - first:
+      213: -8025609593224079720
+    second: mansion_tiles_20
+  - first:
+      213: -5638469814062036585
+    second: mansion_tiles_21
+  - first:
+      213: 620488158359816065
+    second: mansion_tiles_22
+  - first:
+      213: -4959301061769585930
+    second: mansion_tiles_23
+  - first:
+      213: 7377604320647416730
+    second: mansion_tiles_24
+  - first:
+      213: -6825775165579831827
+    second: mansion_tiles_25
+  - first:
+      213: -7372301526725521244
+    second: mansion_tiles_26
+  - first:
+      213: -8425762971204945549
+    second: mansion_tiles_27
+  - first:
+      213: 898382706127448122
+    second: mansion_tiles_28
+  - first:
+      213: 3725469512621154827
+    second: mansion_tiles_29
+  - first:
+      213: 342646124422949196
+    second: mansion_tiles_30
+  - first:
+      213: -8082822114046900072
+    second: mansion_tiles_31
+  - first:
+      213: -8829598966052812484
+    second: mansion_tiles_32
+  - first:
+      213: 360036732067619120
+    second: mansion_tiles_33
+  - first:
+      213: 4015770464862344023
+    second: mansion_tiles_34
+  - first:
+      213: 2544474624719119628
+    second: mansion_tiles_35
+  - first:
+      213: 2744063673566509787
+    second: mansion_tiles_36
+  - first:
+      213: 9007582088478520603
+    second: mansion_tiles_37
+  - first:
+      213: 8256833938207590502
+    second: mansion_tiles_38
+  - first:
+      213: 8281487737120234927
+    second: mansion_tiles_39
+  - first:
+      213: 7771148343090004505
+    second: mansion_tiles_40
+  - first:
+      213: 7069829052135744530
+    second: mansion_tiles_41
+  - first:
+      213: -7871901572817143157
+    second: mansion_tiles_42
+  - first:
+      213: 7783213780117719979
+    second: mansion_tiles_43
+  - first:
+      213: -7291107501333439418
+    second: mansion_tiles_44
+  - first:
+      213: 8905613268368849247
+    second: mansion_tiles_45
+  - first:
+      213: -1279806988520785388
+    second: mansion_tiles_46
+  - first:
+      213: 1923583041043189958
+    second: mansion_tiles_47
+  - first:
+      213: 5576133861431120155
+    second: mansion_tiles_48
+  - first:
+      213: 1709851574356560570
+    second: mansion_tiles_49
+  - first:
+      213: 5643799950781514317
+    second: mansion_tiles_50
+  - first:
+      213: 3927465833010347384
+    second: mansion_tiles_51
+  - first:
+      213: -2867289241071799780
+    second: mansion_tiles_52
+  - first:
+      213: 7079680123823300065
+    second: mansion_tiles_53
+  - first:
+      213: -5703470265085709707
+    second: mansion_tiles_54
+  - first:
+      213: 3362863887976624782
+    second: mansion_tiles_55
+  - first:
+      213: -4978203446323834803
+    second: mansion_tiles_56
+  - first:
+      213: 72973485915788329
+    second: mansion_tiles_57
+  - first:
+      213: -5005619980864118171
+    second: mansion_tiles_58
+  - first:
+      213: 2873264504912293585
+    second: mansion_tiles_59
+  - first:
+      213: -1564000600803813106
+    second: mansion_tiles_60
+  - first:
+      213: 1049146213498364901
+    second: mansion_tiles_61
+  - first:
+      213: -6817791324440310233
+    second: mansion_tiles_62
+  - first:
+      213: -4116568887036531294
+    second: mansion_tiles_63
+  - first:
+      213: -8631240042818784779
+    second: mansion_tiles_64
+  - first:
+      213: -5457291477250500940
+    second: mansion_tiles_65
+  - first:
+      213: -2532767147514730979
+    second: mansion_tiles_66
+  - first:
+      213: -2800484023569980680
+    second: mansion_tiles_67
+  - first:
+      213: 3400123296134615550
+    second: mansion_tiles_68
+  - first:
+      213: 4382445334761549621
+    second: mansion_tiles_69
+  - first:
+      213: 8713287401414536048
+    second: mansion_tiles_70
+  - first:
+      213: 8836086964081830156
+    second: mansion_tiles_71
+  - first:
+      213: 8200773859784639873
+    second: mansion_tiles_72
+  - first:
+      213: -5106389698302417501
+    second: mansion_tiles_73
+  - first:
+      213: -3798771755274079795
+    second: mansion_tiles_74
+  - first:
+      213: -5365755328204530849
+    second: mansion_tiles_75
+  - first:
+      213: -8029858954410370720
+    second: mansion_tiles_76
+  - first:
+      213: -5655702511421087038
+    second: mansion_tiles_77
+  - first:
+      213: 3778271494484147450
+    second: mansion_tiles_78
+  - first:
+      213: -6903137180474765363
+    second: mansion_tiles_79
+  - first:
+      213: 5654011208521639398
+    second: mansion_tiles_80
+  - first:
+      213: -1356514782026051414
+    second: mansion_tiles_81
+  - first:
+      213: 5523591972972177717
+    second: mansion_tiles_82
+  - first:
+      213: -8577941851246658533
+    second: mansion_tiles_83
+  - first:
+      213: -8291441250384564095
+    second: mansion_tiles_84
+  - first:
+      213: 6823331842370605116
+    second: mansion_tiles_85
+  - first:
+      213: -4221326457061126646
+    second: mansion_tiles_86
+  - first:
+      213: -5040463909055028404
+    second: mansion_tiles_87
+  - first:
+      213: 8749387961526589958
+    second: mansion_tiles_88
+  - first:
+      213: -420474872212247625
+    second: mansion_tiles_89
+  - first:
+      213: -6271417127712736928
+    second: mansion_tiles_90
+  - first:
+      213: 5558196846805393607
+    second: mansion_tiles_91
+  - first:
+      213: 2149723754168091636
+    second: mansion_tiles_92
+  - first:
+      213: 1671299023582029755
+    second: mansion_tiles_93
+  - first:
+      213: -5974871740196103732
+    second: mansion_tiles_94
+  - first:
+      213: 1158257346898524761
+    second: mansion_tiles_95
+  - first:
+      213: -2015405822105989086
+    second: mansion_tiles_96
+  - first:
+      213: -3305081749003986575
+    second: mansion_tiles_97
+  - first:
+      213: -5444589237947613056
+    second: mansion_tiles_98
+  - first:
+      213: 1542250587185562687
+    second: mansion_tiles_99
+  - first:
+      213: 7645577529384229296
+    second: mansion_tiles_100
+  - first:
+      213: 5283157644572316764
+    second: mansion_tiles_101
+  - first:
+      213: -3338359851488625377
+    second: mansion_tiles_102
+  - first:
+      213: 7088314132053940876
+    second: mansion_tiles_103
+  - first:
+      213: 4442571999304207020
+    second: mansion_tiles_104
+  - first:
+      213: -8479915177682200327
+    second: mansion_tiles_105
+  - first:
+      213: 1376464328224404121
+    second: mansion_tiles_106
+  - first:
+      213: -3641311468976436287
+    second: mansion_tiles_107
+  - first:
+      213: -5754699863531667279
+    second: mansion_tiles_108
+  - first:
+      213: -1305306470559774109
+    second: mansion_tiles_109
+  - first:
+      213: 4498200660289392293
+    second: mansion_tiles_110
+  - first:
+      213: -7821381550757708702
+    second: mansion_tiles_111
+  - first:
+      213: 6754555447319281694
+    second: mansion_tiles_112
+  - first:
+      213: -4943076589939850114
+    second: mansion_tiles_113
+  - first:
+      213: 4622568896401687093
+    second: mansion_tiles_114
+  - first:
+      213: -3952544347985358280
+    second: mansion_tiles_115
+  - first:
+      213: 3016910051112171629
+    second: mansion_tiles_116
+  - first:
+      213: 3447853076731704863
+    second: mansion_tiles_117
+  - first:
+      213: 8371998066641602454
+    second: mansion_tiles_118
+  - first:
+      213: 6189836007818902200
+    second: mansion_tiles_119
+  - first:
+      213: -5030218248405528901
+    second: mansion_tiles_120
+  - first:
+      213: -5185229505818697727
+    second: mansion_tiles_121
+  - first:
+      213: 1920792198218117605
+    second: mansion_tiles_122
+  - first:
+      213: -5581672561165057823
+    second: mansion_tiles_123
+  - first:
+      213: 2772472436968312910
+    second: mansion_tiles_124
+  - first:
+      213: 7956015435835932012
+    second: mansion_tiles_125
+  - first:
+      213: -2454402638419942220
+    second: mansion_tiles_126
+  - first:
+      213: 5772877730057817814
+    second: mansion_tiles_127
+  - first:
+      213: -8533513570511082253
+    second: mansion_tiles_128
+  - first:
+      213: 2219562219860174094
+    second: mansion_tiles_129
+  - first:
+      213: 88873525729319884
+    second: mansion_tiles_130
+  - first:
+      213: -855022282386511139
+    second: mansion_tiles_131
+  - first:
+      213: 616929954548996389
+    second: mansion_tiles_132
+  - first:
+      213: -3870374834669322001
+    second: mansion_tiles_133
+  - first:
+      213: 1575522691650772553
+    second: mansion_tiles_134
+  - first:
+      213: 6718121780304695779
+    second: mansion_tiles_135
+  - first:
+      213: -8830176831912684556
+    second: mansion_tiles_136
+  - first:
+      213: 2972899286707074461
+    second: mansion_tiles_137
+  - first:
+      213: 6539758440536687732
+    second: mansion_tiles_138
+  - first:
+      213: -3424736177825560598
+    second: mansion_tiles_139
+  - first:
+      213: -8398040945713598019
+    second: mansion_tiles_140
+  - first:
+      213: 7113054183575251620
+    second: mansion_tiles_141
+  - first:
+      213: 4779008055224638044
+    second: mansion_tiles_142
+  - first:
+      213: -6103544363009851084
+    second: mansion_tiles_143
+  - first:
+      213: 4054995371170799709
+    second: mansion_tiles_144
+  - first:
+      213: 7816111208872771484
+    second: mansion_tiles_145
+  - first:
+      213: 2519441863454442239
+    second: mansion_tiles_146
+  - first:
+      213: 1263367589276467574
+    second: mansion_tiles_147
+  - first:
+      213: -1924465710095566794
+    second: mansion_tiles_148
+  - first:
+      213: -5596104727704630382
+    second: mansion_tiles_149
+  - first:
+      213: 7284459411146715227
+    second: mansion_tiles_150
+  - first:
+      213: -4858277376747183639
+    second: mansion_tiles_151
+  - first:
+      213: -5249936358510694326
+    second: mansion_tiles_152
+  - first:
+      213: 1651719190652993037
+    second: mansion_tiles_153
+  - first:
+      213: -1939142113145394670
+    second: mansion_tiles_154
+  - first:
+      213: -600722339104941912
+    second: mansion_tiles_155
+  - first:
+      213: 1321049936342771746
+    second: mansion_tiles_156
+  - first:
+      213: 6569819395215686950
+    second: mansion_tiles_157
+  - first:
+      213: 5116867977184830256
+    second: mansion_tiles_158
+  - first:
+      213: -9154591104202236043
+    second: mansion_tiles_159
+  - first:
+      213: 3439049097261395618
+    second: mansion_tiles_160
+  - first:
+      213: 3132781449737150049
+    second: mansion_tiles_161
+  - first:
+      213: 1528973319506501661
+    second: mansion_tiles_162
+  - first:
+      213: -836799086464762280
+    second: mansion_tiles_163
+  - first:
+      213: -1822865341998351976
+    second: mansion_tiles_164
+  - first:
+      213: -3981334210307611978
+    second: mansion_tiles_165
+  - first:
+      213: 2431738756303678319
+    second: mansion_tiles_166
+  - first:
+      213: 5922937569178017053
+    second: mansion_tiles_167
+  - first:
+      213: 1554790573466828858
+    second: mansion_tiles_168
+  - first:
+      213: 453434399190720978
+    second: mansion_tiles_169
+  - first:
+      213: -4917407556437002277
+    second: mansion_tiles_170
+  - first:
+      213: 7689552207646288168
+    second: mansion_tiles_171
+  - first:
+      213: -5328011079267201030
+    second: mansion_tiles_172
+  - first:
+      213: -9021982308359914165
+    second: mansion_tiles_173
+  - first:
+      213: -1073647009210586548
+    second: mansion_tiles_174
+  - first:
+      213: 8118314764586599035
+    second: mansion_tiles_175
+  - first:
+      213: -2805095654130642803
+    second: mansion_tiles_176
+  - first:
+      213: -6089787340158497071
+    second: mansion_tiles_177
+  - first:
+      213: 9003781658547686880
+    second: mansion_tiles_178
+  - first:
+      213: 2738331151012741816
+    second: mansion_tiles_179
+  - first:
+      213: -7257503144160395929
+    second: mansion_tiles_180
+  - first:
+      213: -7441571575421466291
+    second: mansion_tiles_181
+  - first:
+      213: 8367943055210925874
+    second: mansion_tiles_182
+  - first:
+      213: -3101517502809287283
+    second: mansion_tiles_183
+  - first:
+      213: -6503994798938344162
+    second: mansion_tiles_184
+  - first:
+      213: 4508720845234968122
+    second: mansion_tiles_185
+  - first:
+      213: -374362739601069097
+    second: mansion_tiles_186
+  - first:
+      213: -9028909245548183522
+    second: mansion_tiles_187
+  - first:
+      213: -2429042568168667134
+    second: mansion_tiles_188
+  - first:
+      213: 7982521578390051249
+    second: mansion_tiles_189
+  - first:
+      213: 8154987227554432663
+    second: mansion_tiles_190
+  - first:
+      213: 3177332343777760274
+    second: mansion_tiles_191
+  - first:
+      213: 2094915939594783803
+    second: mansion_tiles_192
+  - first:
+      213: -5640256864749518592
+    second: mansion_tiles_193
+  - first:
+      213: -1237348222771481682
+    second: mansion_tiles_194
+  - first:
+      213: -2946101318430346591
+    second: mansion_tiles_195
+  - first:
+      213: -4248329631187844274
+    second: mansion_tiles_196
+  - first:
+      213: -5828133310524097217
+    second: mansion_tiles_197
+  - first:
+      213: -4215121862043627705
+    second: mansion_tiles_198
+  - first:
+      213: -4351461312352688826
+    second: mansion_tiles_199
+  - first:
+      213: -3245977035634750269
+    second: mansion_tiles_200
+  - first:
+      213: -6515847150187859751
+    second: mansion_tiles_201
+  - first:
+      213: 8426691440075774536
+    second: mansion_tiles_202
+  - first:
+      213: -8958154103961485056
+    second: mansion_tiles_203
+  - first:
+      213: 1410002450061713567
+    second: mansion_tiles_204
+  - first:
+      213: 413068010946068867
+    second: mansion_tiles_205
+  - first:
+      213: 1562553484511112629
+    second: mansion_tiles_206
+  - first:
+      213: 4363208941995171235
+    second: mansion_tiles_207
+  - first:
+      213: -5044102709008538733
+    second: mansion_tiles_208
+  - first:
+      213: -5830387366468186659
+    second: mansion_tiles_209
+  - first:
+      213: 2843380760383202962
+    second: mansion_tiles_210
+  - first:
+      213: 4591931615554455254
+    second: mansion_tiles_211
+  - first:
+      213: -5766818110083393808
+    second: mansion_tiles_212
+  - first:
+      213: -4133287926392156231
+    second: mansion_tiles_213
+  - first:
+      213: 8310097708999503935
+    second: mansion_tiles_214
+  - first:
+      213: 7153511458753568717
+    second: mansion_tiles_215
+  - first:
+      213: -5140039268194576957
+    second: mansion_tiles_216
+  - first:
+      213: 23333845223162977
+    second: mansion_tiles_217
+  - first:
+      213: -1447883868067730764
+    second: mansion_tiles_218
+  - first:
+      213: 4867779592747933170
+    second: mansion_tiles_219
+  - first:
+      213: 3398120133087317114
+    second: mansion_tiles_220
+  - first:
+      213: 4368208997794577924
+    second: mansion_tiles_221
+  - first:
+      213: 7445403182676107759
+    second: mansion_tiles_222
+  - first:
+      213: 7069974133897931544
+    second: mansion_tiles_223
+  - first:
+      213: -1373629686663556888
+    second: mansion_tiles_224
+  - first:
+      213: 5734678239407270330
+    second: mansion_tiles_225
+  - first:
+      213: -2967059345483330839
+    second: mansion_tiles_226
+  - first:
+      213: 6077652139585940378
+    second: mansion_tiles_227
+  - first:
+      213: -584975189521781143
+    second: mansion_tiles_228
+  - first:
+      213: -3389116778790274058
+    second: mansion_tiles_229
+  - first:
+      213: 8047355073638766840
+    second: mansion_tiles_230
+  - first:
+      213: -5676588582280653618
+    second: mansion_tiles_231
+  - first:
+      213: 8353775254026713596
+    second: mansion_tiles_232
+  - first:
+      213: 304056921629038367
+    second: mansion_tiles_233
+  - first:
+      213: 6433172014415317407
+    second: mansion_tiles_234
+  - first:
+      213: -517063346361981226
+    second: mansion_tiles_235
+  - first:
+      213: 8741875824619775774
+    second: mansion_tiles_236
+  - first:
+      213: -4550460059791762605
+    second: mansion_tiles_237
+  - first:
+      213: -4478757835263204494
+    second: mansion_tiles_238
+  - first:
+      213: 8017394881664439831
+    second: mansion_tiles_239
+  - first:
+      213: -8577797998113305471
+    second: mansion_tiles_240
+  - first:
+      213: -4371466935623376187
+    second: mansion_tiles_241
+  - first:
+      213: -1393699031986771912
+    second: mansion_tiles_242
+  - first:
+      213: -8997536613292944779
+    second: mansion_tiles_243
+  - first:
+      213: -5815880637779552930
+    second: mansion_tiles_244
+  - first:
+      213: -7739290737833158600
+    second: mansion_tiles_245
+  - first:
+      213: -1962620191602025313
+    second: mansion_tiles_246
+  - first:
+      213: 1851770766915362633
+    second: mansion_tiles_247
+  - first:
+      213: 586090258830686099
+    second: mansion_tiles_248
+  - first:
+      213: -5634287991576224141
+    second: mansion_tiles_249
+  - first:
+      213: 7592394721216065969
+    second: mansion_tiles_250
+  - first:
+      213: 8782377582954409645
+    second: mansion_tiles_251
+  - first:
+      213: 7847022999822936488
+    second: mansion_tiles_252
+  - first:
+      213: -1991760367322863069
+    second: mansion_tiles_253
+  - first:
+      213: 2126424527194660858
+    second: mansion_tiles_254
+  - first:
+      213: -1305233651275464785
+    second: mansion_tiles_255
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 250
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mansion_tiles_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3846
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3fc67bc568e14a30800000000000000
+      internalID: 4197891851588915005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_1
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 3846
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 372c85672e6e295a0800000000000000
+      internalID: -6515891850529160589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_2
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 3846
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44ee15b7b7fa64960800000000000000
+      internalID: 7585943567236984388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_3
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 3846
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17b6b215488c4f4d0800000000000000
+      internalID: -3101633772728390799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_4
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 3846
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec7eb358b18973320800000000000000
+      internalID: 2537664159013398478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_5
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 3846
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03e33559f203cc0b0800000000000000
+      internalID: -5707133646858404304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_6
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 3846
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65fe7de74b8120140800000000000000
+      internalID: 4684333725919997782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_7
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 3846
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74a3518e0c3afa010800000000000000
+      internalID: 1202359674453965383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_8
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 3846
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f708d832019cef570800000000000000
+      internalID: 8502454217675210879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_9
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 3846
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f8c96443de2a2fc0800000000000000
+      internalID: -3518948673915860751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_10
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 3846
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 816f0387c926e3740800000000000000
+      internalID: 5133649049419839000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_11
+      rect:
+        serializedVersion: 2
+        x: 2750
+        y: 3846
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb6346d458879db80800000000000000
+      internalID: -8369525918566959425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_12
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 3846
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 292ae84c2a6429350800000000000000
+      internalID: 6021953316644102802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_13
+      rect:
+        serializedVersion: 2
+        x: 3250
+        y: 3846
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fb00b0329f217420800000000000000
+      internalID: 2625932362662284277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_14
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 3846
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a5047117055af1f0800000000000000
+      internalID: -1010401677545306717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_15
+      rect:
+        serializedVersion: 2
+        x: 3750
+        y: 3846
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd49980cb3b849670800000000000000
+      internalID: 8544607481778246877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3596
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 405faccf586aca0a0800000000000000
+      internalID: -6868932237244828412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_17
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 3596
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae2b77cdbf22067e0800000000000000
+      internalID: -1774379788053007638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_18
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 3596
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ae9cf44632cbbab0800000000000000
+      internalID: -4991182223668633947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_19
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 3596
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14f11c82262229130800000000000000
+      internalID: 3571955259444109121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_20
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 3596
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2147e50f5741bf6d0800000000000000
+      internalID: -2955746233662147566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_21
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 3596
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72472c1ea3e572760800000000000000
+      internalID: 7433013316987024423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_22
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 3596
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1461e0bc980605be0800000000000000
+      internalID: -1490585331726150079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_23
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 3596
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7af5915bcb14b37b0800000000000000
+      internalID: -5243525062394814553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_24
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 3596
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c6148fd158246c80800000000000000
+      internalID: -8330489078621137214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_25
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 3596
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e72fef7c5319769c0800000000000000
+      internalID: -3934016089310170498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_26
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 3596
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d58674197c8a4e90800000000000000
+      internalID: -7040660615778105895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_27
+      rect:
+        serializedVersion: 2
+        x: 2750
+        y: 3596
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f8da8f96a8ced3a0800000000000000
+      internalID: -6638648182730729231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_28
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 3596
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba04b676e4d942ab0800000000000000
+      internalID: -5033725523425279829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_29
+      rect:
+        serializedVersion: 2
+        x: 3250
+        y: 3596
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bbb88f2a02027ea0800000000000000
+      internalID: -5876632320994657358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_30
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 3596
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25010942871c1ef90800000000000000
+      internalID: -6926042030165454766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_31
+      rect:
+        serializedVersion: 2
+        x: 3750
+        y: 3596
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8ded94aa64773960800000000000000
+      internalID: 7581656499078688139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3346
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7740fea2c1022cc10800000000000000
+      internalID: 2072254083895329911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_33
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 3346
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3668a6ebdca9f5000800000000000000
+      internalID: 26910331241137763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_34
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 3346
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d329216c7fc00c420800000000000000
+      internalID: 2648130839213412925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_35
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 3346
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06a1f189033ce7430800000000000000
+      internalID: 3782675350515817056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_36
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 3346
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe2e458dc4dbb4cc0800000000000000
+      internalID: -3725676128974347537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_37
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 3346
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0139a5947ba1184d0800000000000000
+      internalID: -3134194491161144560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_38
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 3346
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05743354abd3ee010800000000000000
+      internalID: 1219980419298182992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_39
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 3346
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dd891a35a9b29c80800000000000000
+      internalID: -8317381442504389166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_40
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 3346
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03b399a52ab0e2260800000000000000
+      internalID: 7074604856578226992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_41
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 3346
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78daffaaca71c2b80800000000000000
+      internalID: -8418327573091603065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_42
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 3346
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 067024ad8443e3be0800000000000000
+      internalID: -1495700538736375968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_43
+      rect:
+        serializedVersion: 2
+        x: 2750
+        y: 3346
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24cbaaa6232c543f0800000000000000
+      internalID: -917113427306300350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_44
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 3346
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45df09f3818e52020800000000000000
+      internalID: 2316512774195314004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_45
+      rect:
+        serializedVersion: 2
+        x: 3250
+        y: 3346
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c32ef57617b7da5c0800000000000000
+      internalID: -4202567150270946756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_46
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 3346
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fb5d880d6022b5d0800000000000000
+      internalID: -3048338345109398542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_47
+      rect:
+        serializedVersion: 2
+        x: 3750
+        y: 3346
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43e5f6ec52918ed20800000000000000
+      internalID: 3307921576471518772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3096
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6af24bbab0824dc40800000000000000
+      internalID: 5536093872535646118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_49
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 3096
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9836e35fe5142f9c0800000000000000
+      internalID: -3894978851624819831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_50
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 3096
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a080d43fe67c4c560800000000000000
+      internalID: 7333205372608251914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_51
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 3096
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49239bda084c0b740800000000000000
+      internalID: 5165844829543412372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_52
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 3096
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41731a39e5fa9e2a0800000000000000
+      internalID: -6707637349253040364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_53
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 3096
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 806abfce28354f030800000000000000
+      internalID: 3527536229924709896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_54
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 3096
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a853fb3f1ed6c7500800000000000000
+      internalID: 395311684526224778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_55
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 3096
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77f3daf4aa0f1e670800000000000000
+      internalID: 8566392580507254647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_56
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 3096
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fab2266c20c7470a0800000000000000
+      internalID: -6884741578982544465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_57
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 3096
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4ed3635534fdd530800000000000000
+      internalID: 3881526963732733517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_58
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 3096
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1db382a4a67fc46a0800000000000000
+      internalID: -6463519329300759599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_59
+      rect:
+        serializedVersion: 2
+        x: 2750
+        y: 3096
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcfa8c91b29a97a20800000000000000
+      internalID: 3060663424356233163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_60
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 3096
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6928671f3682c3e20800000000000000
+      internalID: 3331582234065273494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_61
+      rect:
+        serializedVersion: 2
+        x: 3250
+        y: 3096
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7045258aef2c4460800000000000000
+      internalID: 7227204186325467262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_62
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 3096
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48edc5fdea56e7d10800000000000000
+      internalID: 2125247875911573124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_63
+      rect:
+        serializedVersion: 2
+        x: 3750
+        y: 3096
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 595df62c8c299d190800000000000000
+      internalID: -7937151477310564971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2846
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e1ab6a1838aa55c0800000000000000
+      internalID: -4225880341418892823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_65
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 2846
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61be61e7e63605e90800000000000000
+      internalID: -7039016891367101674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_66
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 2846
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 039b2a036241eead0800000000000000
+      internalID: -2671175374726842064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_67
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 2846
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24b3d46a2f76758f0800000000000000
+      internalID: -551858137459770558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_68
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 2846
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afa23b4f46e722740800000000000000
+      internalID: 5125798297968257786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_69
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 2846
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b83c0a24ff6348f70800000000000000
+      internalID: 9188529609705046923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_70
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 2846
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f19b46904fdada0b0800000000000000
+      internalID: -5715721088422069985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_71
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 2846
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d73514e294219eb50800000000000000
+      internalID: 6622844832542970749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_72
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 2846
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b000d8abf1f51430800000000000000
+      internalID: 3753171927654465718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_73
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 2846
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aebdd444bf70e6e0800000000000000
+      internalID: -1810306637976715610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_74
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 2846
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1316c739cba249ae0800000000000000
+      internalID: -1543561782864617167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_75
+      rect:
+        serializedVersion: 2
+        x: 2750
+        y: 2846
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fa0aecd1c764a840800000000000000
+      internalID: 5234422749244033784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_76
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 2846
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baf2c9f65b214b540800000000000000
+      internalID: 5022660054895833003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_77
+      rect:
+        serializedVersion: 2
+        x: 3250
+        y: 2846
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d29890e7a7ba83c0800000000000000
+      internalID: -4356467757872016679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_78
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 2846
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a51a919a6ecb0bad0800000000000000
+      internalID: -2688441278674656934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_79
+      rect:
+        serializedVersion: 2
+        x: 3750
+        y: 2846
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bbc2482588e339e0800000000000000
+      internalID: -1642713780456338509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2596
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 604f5252df2dd3050800000000000000
+      internalID: 5782009481305388038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_81
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 2596
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0c093d183bdb1030800000000000000
+      internalID: 3466605372246658060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_82
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 2596
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 048e399069bf758d0800000000000000
+      internalID: -2857538816718936000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_83
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 2596
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9705451fc37451710800000000000000
+      internalID: 1663313964455710841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_84
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 2596
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7befbee8ac585e4e0800000000000000
+      internalID: -1953007758367523145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_85
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 2596
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27bed813c0bd14d20800000000000000
+      internalID: 3261128450610424690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_86
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 2596
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27369cf9618c62eb0800000000000000
+      internalID: -4744885157892627598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_87
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 2596
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4911071dc8826210800000000000000
+      internalID: 1324771654835968333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_88
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 2596
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5025551688662c60800000000000000
+      internalID: 7793031130304028763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_89
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 2596
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fff768f7c74d41790800000000000000
+      internalID: -7560184243267665921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_90
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 2596
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73c5cbf108e65a570800000000000000
+      internalID: 8477303370162134071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_91
+      rect:
+        serializedVersion: 2
+        x: 2750
+        y: 2596
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82a8956ee07e6a0a0800000000000000
+      internalID: -6870550130326926808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_92
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 2596
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c146db7c78ff49110800000000000000
+      internalID: 1266918353834697756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_93
+      rect:
+        serializedVersion: 2
+        x: 3250
+        y: 2596
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4c8745da3919d9b0800000000000000
+      internalID: -5054981366269637558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_94
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 2596
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0ed05e2b0bd46de0800000000000000
+      internalID: -1340705947981390322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_95
+      rect:
+        serializedVersion: 2
+        x: 3750
+        y: 2596
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce5a9c7a6fe4a7f50800000000000000
+      internalID: 6879898202045785580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2346
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb7f85064ddba9670800000000000000
+      internalID: 8546351962736097211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_97
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 2346
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5f2c2fd7d80c4cc0800000000000000
+      internalID: -3725593068487037094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_98
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 2346
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c39c7bba3ab245d70800000000000000
+      internalID: 9030891134745299260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_99
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 2346
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67f2a4b31c165efd0800000000000000
+      internalID: -2313335351033581706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_100
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 2346
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bed2604ea82333920800000000000000
+      internalID: 2968772151479774699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_101
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 2346
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0927fbb4920f0f7c0800000000000000
+      internalID: -4039464805596171632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_102
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 2346
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaaa79166c140a650800000000000000
+      internalID: 6242061403832167082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_103
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 2346
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15e010c12543786b0800000000000000
+      internalID: -5294205309688934831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_104
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 2346
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7da2aa67a4001600800000000000000
+      internalID: 436854280950033786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_105
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 2346
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dc7ed094dac0de00800000000000000
+      internalID: 1067576125999185110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_106
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 2346
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1034bd244eceb6640800000000000000
+      internalID: 5074409870281360129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_107
+      rect:
+        serializedVersion: 2
+        x: 2750
+        y: 2346
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 659e2ee99994201f0800000000000000
+      internalID: -1080220036471002794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_108
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 2346
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8935a546fca61f660800000000000000
+      internalID: 7417827500230333336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_109
+      rect:
+        serializedVersion: 2
+        x: 3250
+        y: 2346
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bbe7f578b7e2bdc0800000000000000
+      internalID: -3624579970640647246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_110
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 2346
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a48a7801e92e5760800000000000000
+      internalID: 7448436880204006569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_111
+      rect:
+        serializedVersion: 2
+        x: 3750
+        y: 2346
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4225df7cf66921580800000000000000
+      internalID: -8857852110243540444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_112
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2096
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a79f3f18f3e3b800800000000000000
+      internalID: 627095427950286756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_113
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 2096
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aba409d831629ea0800000000000000
+      internalID: -5867520467723310170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_114
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 2096
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1497b8e30894a5100800000000000000
+      internalID: 97471157095856449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_115
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 2096
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad9fa86fced0f83c0800000000000000
+      internalID: -4355247003244234278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_116
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 2096
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a76869859b44c7f10800000000000000
+      internalID: 2268763875133785722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_117
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 2096
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0059b5ebf6f18f2a0800000000000000
+      internalID: -6703573480545479424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_118
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 2096
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6bfe7b29c225c8f0800000000000000
+      internalID: -520971934477911186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_119
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 2096
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0444cf35826ee9700800000000000000
+      internalID: 549129265467900992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_120
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 2096
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70c73c9b30ee4a3f0800000000000000
+      internalID: -890325126543606777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_121
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 2096
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3abcc74a86eee930800000000000000
+      internalID: 4174527386203503162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_122
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 2096
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6493136cffaf7970800000000000000
+      internalID: 8754909699160380526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_123
+      rect:
+        serializedVersion: 2
+        x: 2750
+        y: 2096
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1366de3cf738ae070800000000000000
+      internalID: 8136460261569422897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_124
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 2096
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06faef0224dced460800000000000000
+      internalID: 7268472532527656800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_125
+      rect:
+        serializedVersion: 2
+        x: 3250
+        y: 2096
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2093e3735ac36cc80800000000000000
+      internalID: -8302882182716835582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_126
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 2096
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9efdbdd92d49be60800000000000000
+      internalID: 7978493057072758430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_127
+      rect:
+        serializedVersion: 2
+        x: 3750
+        y: 2096
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45cb3005f1c117060800000000000000
+      internalID: 6949366620821371988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_128
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1846
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a54d7462bd4061800800000000000000
+      internalID: 582658541077648474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_129
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 1846
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43f4eea35f887b2b0800000000000000
+      internalID: -5568831827383267532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_130
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1846
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3531b367ee3e15f30800000000000000
+      internalID: 4562678510828327763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_131
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1846
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82e7bf1a34c780180800000000000000
+      internalID: -9148926013080895960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_132
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1846
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ee682a3856b2e4b0800000000000000
+      internalID: -5412563312096809243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_133
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 1846
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03445c436c8f13d00800000000000000
+      internalID: 950814526524441648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_134
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1846
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75e96ec6f49b52c40800000000000000
+      internalID: 5486995471801425495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_135
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 1846
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88b01cfd4bf790920800000000000000
+      internalID: 2957035045170252680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_136
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1846
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca5c3be6173001ca0800000000000000
+      internalID: -6048330513835113044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_137
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 1846
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a36ca016e9026ab80800000000000000
+      internalID: -8383977791698581958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_138
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 1846
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e76a691dfbeaa3f0800000000000000
+      internalID: -888638504166594590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_139
+      rect:
+        serializedVersion: 2
+        x: 2750
+        y: 1846
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d71d0606766fdea0800000000000000
+      internalID: -5845841134209919022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_140
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 1846
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e5cbd05243b5ad00800000000000000
+      internalID: 983389191056115171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_141
+      rect:
+        serializedVersion: 2
+        x: 3250
+        y: 1846
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12413919a8bf433f0800000000000000
+      internalID: -921835451137715167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_142
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 1846
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c4cc71dc971fe800800000000000000
+      internalID: 643759234034222276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_143
+      rect:
+        serializedVersion: 2
+        x: 3750
+        y: 1846
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59181e00c7af8ac30800000000000000
+      internalID: 4371018848860733845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_144
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1596
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a410de1cf873a680800000000000000
+      internalID: -8745013027179326301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_145
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 1596
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d7848e22d31a0d80800000000000000
+      internalID: -8283786771150108711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_146
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1596
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 509504584ab902740800000000000000
+      internalID: 5125267506860153093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_147
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1596
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3dfb80704a7cbd50800000000000000
+      internalID: 6754407958333619515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_148
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1596
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95a5646d3f07e32c0800000000000000
+      internalID: -4449995189221172647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_149
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 1596
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1f7deb3df9566600800000000000000
+      internalID: 461154956019072794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_150
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1596
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fe58f5f54e718200800000000000000
+      internalID: 180564299016068857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_151
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 1596
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9022da125f021aa70800000000000000
+      internalID: 8836380181081694729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_152
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1596
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a265a3be3a7201030800000000000000
+      internalID: 3463311698427532842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_153
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 1596
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e781b920b455437e0800000000000000
+      internalID: -1786709371504617346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_154
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 1596
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5f4071d90b530190800000000000000
+      internalID: -7997448415553237154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_155
+      rect:
+        serializedVersion: 2
+        x: 2750
+        y: 1596
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeafbe43eefd89c70800000000000000
+      internalID: 8978172071346174698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_156
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 1596
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 220a8df9c185caa50800000000000000
+      internalID: 6533694039371849762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_157
+      rect:
+        serializedVersion: 2
+        x: 3250
+        y: 1596
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 050618193da489880800000000000000
+      internalID: -8604044815551602608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_158
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 1596
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bad3bb076a2e7f30800000000000000
+      internalID: 4575140893521337009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_159
+      rect:
+        serializedVersion: 2
+        x: 3750
+        y: 1596
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df6717b67b58251d0800000000000000
+      internalID: -3363478948864231683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_160
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1346
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5368ed0a984ea0ac0800000000000000
+      internalID: -3888044048520411595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_161
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 1346
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa463ee26e30e4bf0800000000000000
+      internalID: -338328634842192726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_162
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1346
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d51afe0b0bcbe680800000000000000
+      internalID: -8724656604743854637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_163
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1346
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e26e9c2c1d3b48e0800000000000000
+      internalID: -1708204442440015128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_164
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1346
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fa38c83cd02dd3f0800000000000000
+      internalID: -874506622422467856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_165
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 1346
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8255e2c03911e56e0800000000000000
+      internalID: -1847019473913096920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_166
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1346
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f515fd965fc1cc20800000000000000
+      internalID: 3225086779098207732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_167
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 1346
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e49ee18e4ca591e00800000000000000
+      internalID: 1015942992703187278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_168
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1346
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2ede3c0e6a01db70800000000000000
+      internalID: 8921923804565790250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_169
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 1346
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87cc4879f1a2d2e60800000000000000
+      internalID: 7939048033298467960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_170
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 1346
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40a82180fae6cd040800000000000000
+      internalID: 4673732211337497092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_171
+      rect:
+        serializedVersion: 2
+        x: 2750
+        y: 1346
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afc90404dd7b590d0800000000000000
+      internalID: -3416622581397021446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_172
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 1346
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d7492f0359390ee0800000000000000
+      internalID: -1294440388992874541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_173
+      rect:
+        serializedVersion: 2
+        x: 3250
+        y: 1346
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf71678204c5627e0800000000000000
+      internalID: -1790642371206703109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_174
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 1346
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51eea08983d44f7e0800000000000000
+      internalID: -1732675051166437867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_175
+      rect:
+        serializedVersion: 2
+        x: 3750
+        y: 1346
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54361764c2912f730800000000000000
+      internalID: 4031312294401106757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_176
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1096
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eae2423828a5a19d0800000000000000
+      internalID: -2802828301492277586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_177
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 1096
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a7bf926fdf53eaf0800000000000000
+      internalID: -368345331477268567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_178
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1096
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4603f05f171b25410800000000000000
+      internalID: 1464427931849666660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_179
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1096
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3ad9811a04c7ee60800000000000000
+      internalID: 7991571611315198522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_180
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1096
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c7d2e9e56f579900800000000000000
+      internalID: 691125959144953794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_181
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 1096
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be7d79312edfe0970800000000000000
+      internalID: 8723188675696383979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_182
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1096
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4819bff9a7be14fe0800000000000000
+      internalID: -1206424313255980668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_183
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 1096
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39b819668f4476a40800000000000000
+      internalID: 5361329715071257491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_184
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1096
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 806ae39f368b4e710800000000000000
+      internalID: 1721703697085277704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_185
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 1096
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11fb1b1a6f78f9ce0800000000000000
+      internalID: -1396247866117079279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_186
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 1096
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfd41129a2e488250800000000000000
+      internalID: 5947089252688940540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_187
+      rect:
+        serializedVersion: 2
+        x: 2750
+        y: 1096
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4ca26c03a654e670800000000000000
+      internalID: 8567067649452977231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_188
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 1096
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a082ca25368fd720800000000000000
+      internalID: 2873162650194444449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_189
+      rect:
+        serializedVersion: 2
+        x: 3250
+        y: 1096
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38fa15b08d114f1a0800000000000000
+      internalID: -6776771919685243005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_190
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 1096
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eaa530a21e4b9810800000000000000
+      internalID: 1773096720204671721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_191
+      rect:
+        serializedVersion: 2
+        x: 3750
+        y: 1096
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1885ba9824a196730800000000000000
+      internalID: 3992751417720526977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_192
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 846
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8f9455a3b09dcee0800000000000000
+      internalID: -1239175221209686134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_193
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 846
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4726ae753f5e4f300800000000000000
+      internalID: 285105509745975924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_194
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 846
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03a9f85da436b8c50800000000000000
+      internalID: 6668532846313839152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_195
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 846
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23022374fa82516e0800000000000000
+      internalID: -1867541737196347342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_196
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 846
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f213a652011af28a0800000000000000
+      internalID: -6327661860712992465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_197
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 846
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36f35abe703eb3720800000000000000
+      internalID: 2827102814262869859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_198
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 846
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49b35c11dfbacb8b0800000000000000
+      internalID: -5135040371695993964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_199
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 846
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08a89812ed3a6e560800000000000000
+      internalID: 7342736416914901632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_200
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 846
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 776bc90bdaebe9e30800000000000000
+      internalID: 4512253529873495671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_201
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 846
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff94be6cdd99433d0800000000000000
+      internalID: -3227785855113672193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_202
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 846
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d83721befe2151f90800000000000000
+      internalID: -6983654825517747315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_203
+      rect:
+        serializedVersion: 2
+        x: 2750
+        y: 846
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08e68f5ba489a9a80800000000000000
+      internalID: -8459281503414096256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_204
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 846
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7ba47a74dfeab070800000000000000
+      internalID: 8123068573782682491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_205
+      rect:
+        serializedVersion: 2
+        x: 3250
+        y: 846
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d650ad72a32f20470800000000000000
+      internalID: 8359510189943686509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_206
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 846
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cac718244c7955810800000000000000
+      internalID: 1753474499115842732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_207
+      rect:
+        serializedVersion: 2
+        x: 3750
+        y: 846
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8faeabf32021c2aa0800000000000000
+      internalID: -6184548387418084616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_208
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 596
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 045bc74aaf5021380800000000000000
+      internalID: -9002126131100601024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_209
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 596
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 825eb68f7ca5ae0e0800000000000000
+      internalID: -2239878049750588120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_210
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 596
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12fb37d7d5146baa0800000000000000
+      internalID: -6145652771707961567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_211
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 596
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1e157025bc210120800000000000000
+      internalID: 2378231234673581599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_212
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 596
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 615f8e5dc944cbf80800000000000000
+      internalID: -8089515390269852394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_213
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 596
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 489f4f1693169f790800000000000000
+      internalID: -7495853205697005180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_214
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 596
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b5eac93318415010800000000000000
+      internalID: 1175800225131586995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_215
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 596
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c787e427e22bef700800000000000000
+      internalID: 576093714905987196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_216
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 596
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b629cd35c0bbc76e0800000000000000
+      internalID: -1838388886253038997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_217
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 596
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee7967cec45d85810800000000000000
+      internalID: 1754386581222234094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_218
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 596
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2793dad02dc7e430800000000000000
+      internalID: 3812241150586361647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_219
+      rect:
+        serializedVersion: 2
+        x: 2750
+        y: 596
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f0fa3ddac96bb0f0800000000000000
+      internalID: -1100169363946016525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_220
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 596
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74d799d40cfa8c9a0800000000000000
+      internalID: -6212522445487112889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_221
+      rect:
+        serializedVersion: 2
+        x: 3250
+        y: 596
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27666eff7730e9b50800000000000000
+      internalID: 6601717917701006962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_222
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 596
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab0d80a5a6dd15050800000000000000
+      internalID: 5787650444994597050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_223
+      rect:
+        serializedVersion: 2
+        x: 3750
+        y: 596
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef81006922ab77fb0800000000000000
+      internalID: -4650043432528504578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_224
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 346
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63c6709c29aa5c380800000000000000
+      internalID: -8951561136914338762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_225
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 346
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d73108ca3f4d4360800000000000000
+      internalID: 7155462496843806672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_226
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 346
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca84b31b30b381420800000000000000
+      internalID: 2600893671850854572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_227
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 346
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c06ee0b38a520c50800000000000000
+      internalID: 6629961123098419398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_228
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 346
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d1f6e22200a230d0800000000000000
+      internalID: -3444514833949068843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_229
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 346
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dc63c98d86b97f80800000000000000
+      internalID: -8108248935085937452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_230
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 346
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0563cf15b902b0430800000000000000
+      internalID: 3750126966183573072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_231
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 346
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14b7aff9103dee0f0800000000000000
+      internalID: -1085698456217289919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_232
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 346
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82ff93589cf99d8c0800000000000000
+      internalID: -3973969508305338584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_233
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 346
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31ef53c0b3a795280800000000000000
+      internalID: -9054071181825147373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_234
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 346
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5d3bfcff8d9db160800000000000000
+      internalID: 7042958634027531612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_235
+      rect:
+        serializedVersion: 2
+        x: 2750
+        y: 346
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c643234f99226cef0800000000000000
+      internalID: -88345098064874388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_236
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 346
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdc669de9323e9fe0800000000000000
+      internalID: -1180450827943908129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_237
+      rect:
+        serializedVersion: 2
+        x: 3250
+        y: 346
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c02052e4fe5a6610800000000000000
+      internalID: 1615207822227677377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_238
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 346
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 428d7829e055c5e20800000000000000
+      internalID: 3340638544678344740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_239
+      rect:
+        serializedVersion: 2
+        x: 3750
+        y: 346
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0044032791924080800000000000000
+      internalID: -9204634610078302197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_240
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94714da9df36266d0800000000000000
+      internalID: -2998724460999862455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_241
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 96
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1631e28cfc31915a0800000000000000
+      internalID: -6550182399896054943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_242
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 96
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee1facf029ad9e350800000000000000
+      internalID: 6046604295586640366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_243
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 96
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18501c889a9c3f760800000000000000
+      internalID: 7490552335228274049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_244
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 96
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d997a9543dcbaebb0800000000000000
+      internalID: -4905901228474861155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_245
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 96
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a63c78357fbca74d0800000000000000
+      internalID: -3135969927391362198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_246
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 96
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d2e43be5cb900510800000000000000
+      internalID: 1513380749153460952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_247
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 96
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22179c59512d43ba0800000000000000
+      internalID: -6110027804285767390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_248
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 96
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5587d9bebbae45c0800000000000000
+      internalID: -4229254164404271780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_249
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 96
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d17b06eae19c9b10800000000000000
+      internalID: 1989625573458801107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_250
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 96
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2bbd4768dd881470800000000000000
+      internalID: 8365592268426296106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_251
+      rect:
+        serializedVersion: 2
+        x: 2750
+        y: 96
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8c3698b0233bfad0800000000000000
+      internalID: -2667482138658063218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_252
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 96
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3161dab4bb430e50800000000000000
+      internalID: 6774341504095838522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_253
+      rect:
+        serializedVersion: 2
+        x: 3250
+        y: 96
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bde963804f216c440800000000000000
+      internalID: 4955669279286927067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_254
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 96
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3279b1d2deb082320800000000000000
+      internalID: 2533287903687841571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mansion_tiles_255
+      rect:
+        serializedVersion: 2
+        x: 3750
+        y: 96
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d68abc225a4e1a4c0800000000000000
+      internalID: -4277886773120751507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
