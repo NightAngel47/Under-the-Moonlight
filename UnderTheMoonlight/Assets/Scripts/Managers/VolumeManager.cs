@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Audio;
 
@@ -20,13 +18,39 @@ public class VolumeManager : ScriptableObject
     [SerializeField] private float volCharacters = 0f;
     [SerializeField] private float volEffects = 0f;
 
-    /// <summary> Initalizes the  </summary>
+    /// <summary> Initalizes the volume settings. </summary>
     public void Initalize()
     {
+        LoadVolumeSettings();
+
         SetLevel(volMasterName, volMaster);
         SetLevel(volMusicName, volMusic);
         SetLevel(volCharactersName, volCharacters);
         SetLevel(volMasterName, volMaster);
+    }
+
+    /// <summary> Saves the volume settings if the game is not running on webGL. </summary>
+    public void SaveVolumeSettings()
+    {
+        if (Application.platform != RuntimePlatform.WebGLPlayer)
+            SaveSystem.SaveDataToBinary<float[]>("underthemoonlight", "volumesettings", new float[] { volMaster, volMusic, volCharacters, volEffects });
+    }
+
+    /// <summary> Loads the volume settings if the game is not running on webGL. </summary>
+    public void LoadVolumeSettings()
+    {
+        if (Application.platform != RuntimePlatform.WebGLPlayer)
+        {
+            float[] volumeSettings = SaveSystem.LoadDataFromBinary<float[]>("underthemoonlight", "volumesettings");
+
+            if (volumeSettings != default(float[]))
+            {
+                volMaster = volumeSettings[0];
+                volMusic = volumeSettings[1];
+                volCharacters = volumeSettings[2];
+                volEffects = volumeSettings[3];
+            }
+        }
     }
 
     /// <summary> Gets the level of the given paramater name. </summary>
