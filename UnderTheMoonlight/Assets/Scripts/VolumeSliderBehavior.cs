@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using Unity.Mathematics;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -15,21 +16,22 @@ public class VolumeSliderBehavior : MonoBehaviour
     }
 
     /// <summary> Sets the value the slider should be at. </summary>
-    public void SetSlider()
+    public void GetVolume()
     {
         float level = 0f;
-        volManager.GetVolume(gameObject.name, ref level);
-        slider.value = level;
+
+        volManager.GetLevel(gameObject.name, ref level);
+        slider.value = Mathf.Pow(10f, level / 20f);
     }
 
     /// <summary>
     /// Sets the volume of group with the same name as this slider.
-    /// Old Slider to level converstion found on the site below:
+    /// Slider to level converstion found on the site below:
     /// https://gamedevbeginner.com/the-right-way-to-make-a-volume-slider-in-unity-using-logarithmic-conversion/ 
     /// </summary>
     /// <param name="sliderValue"> Value of slider. </param>
     public void SetVolume(float sliderValue)
     {
-        volManager.SetVolume(gameObject.name, sliderValue);
+        volManager.SetLevel(gameObject.name, Mathf.Log10(sliderValue) * 20f);
     }
 }

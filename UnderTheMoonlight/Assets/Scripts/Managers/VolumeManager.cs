@@ -20,15 +20,19 @@ public class VolumeManager : ScriptableObject
     [SerializeField] private float volCharacters = 0f;
     [SerializeField] private float volEffects = 0f;
 
-    public void OnEnable()
+    /// <summary> Initalizes the  </summary>
+    public void Initalize()
     {
-        audioMix.GetFloat(volMasterName, out volMaster);
-        audioMix.GetFloat(volMusicName, out volMusic);
-        audioMix.GetFloat(volCharactersName, out volCharacters);
-        audioMix.GetFloat(volEffectsName, out volEffects);
+        SetLevel(volMasterName, volMaster);
+        SetLevel(volMusicName, volMusic);
+        SetLevel(volCharactersName, volCharacters);
+        SetLevel(volMasterName, volMaster);
     }
 
-    public void GetVolume(string volumeName, ref float level)
+    /// <summary> Gets the level of the given paramater name. </summary>
+    /// <param name="volumeName"> The name of the exposed parameter. </param>
+    /// <param name="level"> The variable to recieve the level value. </param>
+    public void GetLevel(string volumeName, ref float level)
     {
         if (volumeName == volMasterName)
             level = volMaster;
@@ -43,7 +47,7 @@ public class VolumeManager : ScriptableObject
     /// <summary> Sets the level. </summary>
     /// <param name="volumeName"> Name of the volume setting. </param>
     /// <param name="level"> Value to set the level at. </param>
-    public void SetVolume(string volumeName, float level)
+    public void SetLevel(string volumeName, float level)
     {
         audioMix.SetFloat(volumeName, level);
 

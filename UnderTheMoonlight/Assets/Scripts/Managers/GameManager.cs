@@ -5,12 +5,16 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-    public static GameManager Instance;
-    [SerializeField] private string startGameLevel = "";
-    private int levelIndex;
+    public static GameManager Instance = null;
 
-    // Start is called before the first frame update
-    void Awake()
+    [SerializeField] private VolumeManager volManager = null;
+
+    [Space]
+
+    [SerializeField] private string startGameLevel = "";
+    private int levelIndex = 0;
+
+    private void Awake()
     {
         if (Instance == null)
         {
@@ -21,6 +25,11 @@ public class GameManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
+    }
+
+    private void Start()
+    {
+        volManager.Initalize();
     }
 
     public void StartGame()
