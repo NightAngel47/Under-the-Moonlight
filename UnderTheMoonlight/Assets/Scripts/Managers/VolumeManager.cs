@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Audio;
 
@@ -20,15 +18,45 @@ public class VolumeManager : ScriptableObject
     [SerializeField] private float volCharacters = 0f;
     [SerializeField] private float volEffects = 0f;
 
-    public void OnEnable()
+    /// <summary> Initalizes the volume settings. </summary>
+    public void Initalize()
     {
-        audioMix.GetFloat(volMasterName, out volMaster);
-        audioMix.GetFloat(volMusicName, out volMusic);
-        audioMix.GetFloat(volCharactersName, out volCharacters);
-        audioMix.GetFloat(volEffectsName, out volEffects);
+        LoadVolumeSettings();
+
+        SetLevel(volMasterName, volMaster);
+        SetLevel(volMusicName, volMusic);
+        SetLevel(volCharactersName, volCharacters);
+        SetLevel(volMasterName, volMaster);
     }
 
-    public void GetVolume(string volumeName, ref float level)
+    /// <summary> Saves the volume settings if the game is not running on webGL. </summary>
+    public void SaveVolumeSettings()
+    {
+        if (Application.platform != RuntimePlatform.WebGLPlayer)
+            SaveSystem.SaveDataToBinary<float[]>("underthemoonlight", "volumesettings", new float[] { volMaster, volMusic, volCharacters, volEffects });
+    }
+
+    /// <summary> Loads the volume settings if the game is not running on webGL. </summary>
+    public void LoadVolumeSettings()
+    {
+        if (Application.platform != RuntimePlatform.WebGLPlayer)
+        {
+            float[] volumeSettings = SaveSystem.LoadDataFromBinary<float[]>("underthemoonlight", "volumesettings");
+
+            if (volumeSettings != default(float[]))
+            {
+                volMaster = volumeSettings[0];
+                volMusic = volumeSettings[1];
+                volCharacters = volumeSettings[2];
+                volEffects = volumeSettings[3];
+            }
+        }
+    }
+
+    /// <summary> Gets the level of the given paramater name. </summary>
+    /// <param name="volumeName"> The name of the exposed parameter. </param>
+    /// <param name="level"> The variable to recieve the level value. </param>
+    public void GetLevel(string volumeName, ref float level)
     {
         if (volumeName == volMasterName)
             level = volMaster;
@@ -43,7 +71,7 @@ public class VolumeManager : ScriptableObject
     /// <summary> Sets the level. </summary>
     /// <param name="volumeName"> Name of the volume setting. </param>
     /// <param name="level"> Value to set the level at. </param>
-    public void SetVolume(string volumeName, float level)
+    public void SetLevel(string volumeName, float level)
     {
         audioMix.SetFloat(volumeName, level);
 

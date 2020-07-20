@@ -6,13 +6,11 @@ using UnityEngine;
 public class MainMenuManager : MonoBehaviour
 {
     [SerializeField] private GameObject quitButton = null;
-    
-    private void Awake()
+
+    private void Start()
     {
-        #if UNITY_WEBGL
-        if (quitButton != null)
+        if (Application.platform == RuntimePlatform.WebGLPlayer && quitButton != null)
             quitButton.SetActive(false);
-        #endif
     }
 
     public void StartGameOnClick()
