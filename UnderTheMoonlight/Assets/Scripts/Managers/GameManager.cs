@@ -7,6 +7,10 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager Instance { get; private set; } = null;
 
+    [SerializeField] private GameObject musicPlayerPrefab = null; 
+
+    [Space]
+
     [SerializeField] private int firstLevelBuildIndex = 0;
 
     private int levelIndex = 0;
@@ -33,6 +37,9 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
+        if (MusicPlayerBehavior.Instance == null)
+            Instantiate(musicPlayerPrefab, Vector3.zero, Quaternion.identity);
+
         Scene startingScene = SceneManager.GetActiveScene();
         levelIndex = startingScene.buildIndex;
 

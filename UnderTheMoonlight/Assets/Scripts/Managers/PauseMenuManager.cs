@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.SceneManagement;
 
 
@@ -12,6 +13,8 @@ public class PauseMenuManager : ScriptableObject
     private PauseMenuCanvases canvases = null;
 
     public bool IsPaused { get; private set; } = false;
+
+    public BoolEvent PauseMenuStateChanged;
 
     private void OnEnable()
     {
@@ -52,6 +55,8 @@ public class PauseMenuManager : ScriptableObject
         canvases.SettingsCanvas.enabled = false;
 
         Time.timeScale = IsPaused ? 0f : 1f;
+
+        PauseMenuStateChanged?.Invoke(IsPaused);
     }
 
     /// <summary> 
@@ -71,6 +76,10 @@ public class PauseMenuManager : ScriptableObject
     /// <summary> Method to be called when the Main Menu Button is clicked. </summary>
     public void MainMenuButtonClicked()
     {
+        SwitchPauseState(false);
         GameManager.Instance.LoadMainMenu();
     }
 }
+
+[Serializable]
+public class BoolEvent : UnityEvent<bool> { };

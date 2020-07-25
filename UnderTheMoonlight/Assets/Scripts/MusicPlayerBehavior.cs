@@ -9,7 +9,14 @@ public class MusicPlayerBehavior : MonoBehaviour
 {
     public static MusicPlayerBehavior Instance { get; private set; } = null;
 
+    [SerializeField] private PauseMenuManager pauseManager = null;
     private AudioSource source = null;
+
+    [Space]
+
+    [Min(1f)]
+    [SerializeField] private float volDividerWhilePaused = 2f;
+    private float startVol = 1f;
 
     private void Awake()
     {
@@ -21,16 +28,21 @@ public class MusicPlayerBehavior : MonoBehaviour
         DontDestroyOnLoad(gameObject);
 
         source = GetComponent<AudioSource>();
+        startVol = source.volume;
     }
 
     private void OnEnable()
     {
         SceneManager.sceneLoaded += CheckNewScene;
+
+        pauseManager.PauseMenuStateChanged.AddListener((isPaused) => ChangeVolumeForPauseMenu(isPaused));
     }
 
     private void OnDisable()
     {
         SceneManager.sceneLoaded -= CheckNewScene;
+
+        pauseManager.PauseMenuStateChanged.RemoveListener((isPaused) => ChangeVolumeForPauseMenu(isPaused));
     }
 
     /// <summary> Check when a new scene is loaded. </summary>
@@ -42,5 +54,12 @@ public class MusicPlayerBehavior : MonoBehaviour
             source.Stop();
         else if (!source.isPlaying)
             source.Play();
+    }
+
+    /// <summary> Changes the volume of the game when the game is paused or unpaused. </summary>
+    /// <param name="isPaused"> Is the game paused? </param>
+    private void ChangeVolumeForPauseMenu(bool isPaused)
+    {
+        source.volume = isPaused ? startVol / volDividerWhilePaused : startVol;
     }
 }
