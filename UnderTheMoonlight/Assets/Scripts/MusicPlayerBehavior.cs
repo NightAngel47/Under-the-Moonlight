@@ -50,7 +50,7 @@ public class MusicPlayerBehavior : MonoBehaviour
     /// <param name="mode"> Mode the scene was loaded using. </param>
     private void CheckNewScene(Scene scene, LoadSceneMode mode)
     {
-        if (scene.name == "Ending")
+        if (scene.name.Contains("Ending"))
             source.Stop();
         else if (!source.isPlaying)
             source.Play();

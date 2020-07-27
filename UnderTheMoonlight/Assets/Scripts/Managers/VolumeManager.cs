@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Boo.Lang;
+using System;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Audio;
 
@@ -50,6 +52,8 @@ public class VolumeManager : ScriptableObject
                 volCharacters = volumeSettings[2];
                 volEffects = volumeSettings[3];
             }
+            else
+                Debug.LogWarning("No volume settings found.");
         }
     }
 
@@ -58,6 +62,9 @@ public class VolumeManager : ScriptableObject
     /// <param name="level"> The variable to recieve the level value. </param>
     public void GetLevel(string volumeName, ref float level)
     {
+        //if (!audioMix.GetFloat(volumeName, out level))
+            //Debug.LogWarning("The parameter " + volumeName + " is not known the audio mix " + audioMix.name + ". The ref float level will not be set.");
+
         if (volumeName == volMasterName)
             level = volMaster;
         else if (volumeName == volMusicName)
@@ -66,6 +73,11 @@ public class VolumeManager : ScriptableObject
             level = volCharacters;
         else if (volumeName == volEffectsName)
             level = volEffects;
+        else
+            Debug.LogWarning("The parameter " + volumeName + " is not known the audio mix " + audioMix.name + ". \nref float level will not be set.");
+
+
+        //Debug.Log(volumeName + " : " + level);
     }
 
     /// <summary> Sets the level. </summary>
