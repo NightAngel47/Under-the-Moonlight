@@ -7,9 +7,9 @@ using Cinemachine;
 public class CameraBehaviour : MonoBehaviour
 {
     private CinemachineVirtualCamera _virtualCamera;
-    private Transform _playerTransform;
-    private Transform _exitTransform;
-    [SerializeField] private float transitionSpeed;
+    private Transform _playerTransform = null;
+    private Transform _exitTransform = null;
+    [SerializeField] private float transitionSpeed = 0;
     private float movementDelta = 0.0f;
 
     private void Awake()

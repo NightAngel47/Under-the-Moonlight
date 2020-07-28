@@ -14,13 +14,16 @@ public class WerewolfMovement : CharacterMovement
 
     public UnityEvent TransformToWerewolf;
     public UnityEvent TransformToHuman;
+    private static readonly int IsHuman = Animator.StringToHash("IsHuman");
+    private static readonly int Transforming = Animator.StringToHash("IsTransforming");
+    private static readonly int Walking = Animator.StringToHash("IsWalking");
 
     private void OnEnable()
     {
         foreach (MoonlightBehaviour moonlight in FindObjectsOfType<MoonlightBehaviour>())
         {
-            moonlight.EnterMoonlight.AddListener((werewolf) => WerewolfInMoonlight(werewolf));
-            moonlight.ExitMoonlight.AddListener((werewolf) => WerewolfOutOfMoonlight(werewolf));
+            moonlight.EnterMoonlight.AddListener(WerewolfInMoonlight);
+            moonlight.ExitMoonlight.AddListener(WerewolfOutOfMoonlight);
         }
     }
 
@@ -63,8 +66,8 @@ public class WerewolfMovement : CharacterMovement
     private IEnumerator Transform()
     {
         IsTransforming = true;
-        animator.SetBool("IsHuman", !InMoonlight);
-        animator.SetTrigger("IsTransforming");
+        animator.SetBool(IsHuman, !InMoonlight);
+        animator.SetTrigger(Transforming);
 
         yield return new WaitForSeconds(transformationTime);
 
@@ -114,11 +117,11 @@ public class WerewolfMovement : CharacterMovement
         else
         {
             movementStart = transform.position;
-            animator.SetBool("IsWalking", true);
+            animator.SetBool(Walking, true);
 
             yield return new WaitWhile(PlayerIsMoving);
 
-            animator.SetBool("IsWalking", false);
+            animator.SetBool(Walking, false);
             transform.position = movementTarget;
             movementDelta = 0f;
 

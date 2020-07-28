@@ -9,14 +9,15 @@ public class CharacterMovement : MonoBehaviour
     protected Animator animator = null;
 
     [SerializeField] protected float movementSpeed = 1f;
-    [SerializeField] protected LayerMask impassableLayers = 0;
+    [SerializeField] public LayerMask impassableLayers { get; protected set; } = 0;
 
     protected Vector3 previousDir = Vector3.zero;
-    protected Vector3 movementDir = Vector3.zero;
+    [HideInInspector] public Vector3 movementDir { get; protected set; } = Vector3.zero;
     protected Vector3 movementStart = Vector3.zero;
     protected Vector3 movementTarget = Vector3.zero;
     protected float movementDelta = 0f;
     protected Func<bool> PlayerIsMoving;
+    private static readonly int IsWalking = Animator.StringToHash("IsWalking");
 
     public bool IsPlayerMoving => movementDelta != 0;
 
@@ -29,7 +30,7 @@ public class CharacterMovement : MonoBehaviour
     {
         animator = GetComponent<Animator>();
 
-        PlayerIsMoving = new Func<bool>(() => Moving());
+        PlayerIsMoving = Moving;
     }
 
     protected virtual void Update()
@@ -55,8 +56,9 @@ public class CharacterMovement : MonoBehaviour
     /// <summary> Checks to see if a player can move in that direction. </summary>
     protected virtual bool CanMove()
     {
-        Debug.DrawLine(transform.position, transform.position + movementDir, Color.white, 3f);
-        return !Physics2D.Raycast(transform.position, movementDir, 1f, impassableLayers);
+        var position = transform.position;
+        Debug.DrawLine(position, position + movementDir, Color.white, 3f);
+        return !Physics2D.Raycast(position, movementDir, 1f, impassableLayers);
     }
 
     /// <summary> Moves the player towards the target. </summary>
@@ -75,11 +77,11 @@ public class CharacterMovement : MonoBehaviour
     protected virtual IEnumerator Move()
     {
         movementStart = transform.position;
-        animator.SetBool("IsWalking", true);
+        animator.SetBool(IsWalking, true);
 
         yield return new WaitWhile(PlayerIsMoving);
 
-        animator.SetBool("IsWalking", false);
+        animator.SetBool(IsWalking, false);
         previousDir = movementDir;
         movementDir = Vector3.zero;
         transform.position = movementTarget;
