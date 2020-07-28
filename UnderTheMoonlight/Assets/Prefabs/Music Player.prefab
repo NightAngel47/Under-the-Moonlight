@@ -45,7 +45,7 @@ AudioSource:
     type: 2}
   m_audioClip: {fileID: 8300000, guid: 42bea38fb7860e44d85412b44b78ca4e, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.5
+  m_Volume: 0.45
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -141,3 +141,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d8c1bd538944d74e9940929af15982c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pauseManager: {fileID: 11400000, guid: 0be3bcc221e99a447a9bbd2cc754811e, type: 2}
+  volDividerWhilePaused: 1

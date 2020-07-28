@@ -5,53 +5,81 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-    public static GameManager Instance = null;
+    public static GameManager Instance { get; private set; } = null;
 
-    [SerializeField] private VolumeManager volManager = null;
+    [SerializeField] private GameObject musicPlayerPrefab = null; 
 
     [Space]
 
-    [SerializeField] private string startGameLevel = "";
+    [SerializeField] private int firstLevelBuildIndex = 0;
+
     private int levelIndex = 0;
 
     private void Awake()
     {
         if (Instance == null)
-        {
             Instance = this;
-            DontDestroyOnLoad(gameObject);
-        }
         else if(Instance != this)
-        {
             Destroy(gameObject);
-        }
+
+        DontDestroyOnLoad(gameObject);
+    }
+
+    private void OnEnable()
+    {
+        SceneManager.sceneLoaded += CheckToLoadPauseMenu;
+    }
+
+    private void OnDisable()
+    {
+        SceneManager.sceneLoaded -= CheckToLoadPauseMenu;
     }
 
     private void Start()
     {
-        volManager.Initalize();
+        if (MusicPlayerBehavior.Instance == null)
+            Instantiate(musicPlayerPrefab, Vector3.zero, Quaternion.identity);
+
+        Scene startingScene = SceneManager.GetActiveScene();
+        levelIndex = startingScene.buildIndex;
+
+        CheckToLoadPauseMenu(startingScene, LoadSceneMode.Single);
     }
 
-    public void StartGame()
+    public void StartGameAtFirstLevel()
     {
-        SceneManager.LoadScene(startGameLevel);
-        levelIndex = SceneManager.GetSceneByName(startGameLevel).buildIndex;
+        levelIndex = firstLevelBuildIndex;
+        SceneManager.LoadScene(levelIndex);
     }
 
-    public void ExitReached()
+    /// <summary> Checks to see if the pause menu should be loaded. </summary>
+    /// <param name="loadedScene"> Scene that is loaded. </param>
+    /// <param name="loadMode"> The mode in which the scene is loaded. </param>
+    private void CheckToLoadPauseMenu(Scene loadedScene, LoadSceneMode loadMode)
+    {
+        if (!loadedScene.name.Contains("Menu_") && loadMode == LoadSceneMode.Single)
+            SceneManager.LoadScene("Menu_Pause", LoadSceneMode.Additive);
+    }
+
+    /// <summary> Loads the next levl in the build index. </summary>
+    public void LoadNextLevel()
     {
         levelIndex++;
         if (levelIndex < SceneManager.sceneCountInBuildSettings)
-        {
             SceneManager.LoadScene(levelIndex);
-        }
         else
-        {
-            SceneManager.LoadScene("Ending");
-            levelIndex = 0;
-        }
+            LoadMainMenu();
     }
 
+    /// <summary> Loads the Main Menu. </summary>
+    public void LoadMainMenu()
+    {
+        levelIndex = 0;
+
+        SceneManager.LoadScene(levelIndex);
+    }
+
+    /// <summary> Closes the application. </summary>
     public void Quit()
     {
         Application.Quit();

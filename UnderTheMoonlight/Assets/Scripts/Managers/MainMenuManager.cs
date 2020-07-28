@@ -5,27 +5,23 @@ using UnityEngine;
 
 public class MainMenuManager : MonoBehaviour
 {
+    [SerializeField] private VolumeManager volManager = null;
+
+    [Space]
+
     [SerializeField] private GameObject quitButton = null;
 
     private void Start()
     {
+        volManager.Initalize();
+
         if (Application.platform == RuntimePlatform.WebGLPlayer && quitButton != null)
             quitButton.SetActive(false);
     }
 
     public void StartGameOnClick()
     {
-        GameManager.Instance.StartGame();
-    }
-
-    public void OpenHowToPlay()
-    {
-
-    }
-
-    public void OpenSettingsWindow()
-    {
-
+        GameManager.Instance.StartGameAtFirstLevel();
     }
 
     public void QuitGameOnClick()

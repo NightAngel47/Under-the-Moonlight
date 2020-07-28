@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:engine="UnityEngine.UIElements"
+    xmlns:editor="UnityEditor.UIElements"
+    xsi:noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd">
+
+  <engine:Toggle name="isMoonlightActive" label="Is Moonlight Active" />
+  
+  <engine:Toggle name="useTimer" label="Use Timer" />
+  <engine:Slider name="moonlightActiveTime" label="Moonlight Active Time" >
+    <editor:FloatField name="moonlightActiveValue" class="field-width-23-px" />
+  </engine:Slider>
+  <engine:Slider name="moonlightInactiveTime" label="Moonlight Inactive Time" >
+    <editor:FloatField name="moonlightInactiveValue" class="field-width-23-px" />
+  </engine:Slider>
+  
+</engine:UXML>

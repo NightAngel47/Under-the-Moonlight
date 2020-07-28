@@ -24,6 +24,6 @@ public class LevelExit : MonoBehaviour
 
         yield return new WaitForSeconds(loadDelay);
 
-        GameManager.Instance.ExitReached();
+        GameManager.Instance.LoadNextLevel();
     }
 }

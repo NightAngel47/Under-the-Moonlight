@@ -131,8 +131,8 @@ MonoBehaviour:
       m_Calls: []
   isMoonlightActive: 1
   useTimer: 0
-  moonlightActiveTime: 1
-  moonlightInactiveTime: 1
+  moonlightActiveTime: 0.5
+  moonlightInactiveTime: 0.5
 --- !u!95 &7506659787922146161
 Animator:
   serializedVersion: 3

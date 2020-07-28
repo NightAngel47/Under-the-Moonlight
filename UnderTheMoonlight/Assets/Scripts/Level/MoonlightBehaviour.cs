@@ -18,6 +18,7 @@ public class MoonlightBehaviour : MonoBehaviour
     // Params
     [SerializeField] private bool isMoonlightActive = true;
     [SerializeField] private bool useTimer = false;
+
     [SerializeField, Range(0.5f, 120f)] private float moonlightActiveTime = 1f;
     [SerializeField, Range(0.5f, 120f)] private float moonlightInactiveTime = 1f;
 
