@@ -45,6 +45,11 @@ public class MusicPlayerBehavior : MonoBehaviour
         pauseManager.PauseMenuStateChanged.RemoveListener((isPaused) => ChangeVolumeForPauseMenu(isPaused));
     }
 
+    private void Start()
+    {
+        CheckNewScene(SceneManager.GetActiveScene(), LoadSceneMode.Single);
+    }
+
     /// <summary> Check when a new scene is loaded. </summary>
     /// <param name="scene"> Scene loaded. </param>
     /// <param name="mode"> Mode the scene was loaded using. </param>
