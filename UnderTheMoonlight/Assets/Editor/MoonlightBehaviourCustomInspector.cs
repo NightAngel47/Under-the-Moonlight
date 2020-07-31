@@ -27,7 +27,7 @@ namespace UnderTheMoonlight.Editor
         private Slider moonlightActiveTimeField;
         private Slider moonlightInactiveTimeField;
 
-        private const float moonlightTimeMin = 0.5f;
+        private const float moonlightTimeMin = 1f;
         private const float moonlightTimeMax = 120f;
 
         private FloatField moonlightActiveTimeFloatField;
@@ -93,11 +93,11 @@ namespace UnderTheMoonlight.Editor
 
             Toggle isMoonlightActiveToggle = classElements.Q<Toggle>("isMoonlightActive");
             isMoonlightActiveToggle.value = moonlightActive.boolValue;
-            isMoonlightActiveToggle.RegisterValueChangedCallback((callback) => IsMoonlightActiveValueChanged(callback));
+            isMoonlightActiveToggle.RegisterValueChangedCallback(IsMoonlightActiveValueChanged);
 
             Toggle useTimerToggle = classElements.Q<Toggle>("useTimer");
             useTimerToggle.value = useTimerValue.boolValue;
-            useTimerToggle.RegisterValueChangedCallback((callback) => UseTimersValueChanged(callback));
+            useTimerToggle.RegisterValueChangedCallback(UseTimersValueChanged);
 
             #region Active Field
 
@@ -105,11 +105,11 @@ namespace UnderTheMoonlight.Editor
             moonlightActiveTimeField.lowValue = moonlightTimeMin;
             moonlightActiveTimeField.highValue = moonlightTimeMax;
             moonlightActiveTimeField.value = moonlightActiveTime.floatValue;
-            moonlightActiveTimeField.RegisterValueChangedCallback((callback) => MoonlightActiveTimeValueChanged(callback));
+            moonlightActiveTimeField.RegisterValueChangedCallback(MoonlightActiveTimeValueChanged);
 
             moonlightActiveTimeFloatField = classElements.Q<FloatField>("moonlightActiveValue");
             moonlightActiveTimeFloatField.value = moonlightActiveTime.floatValue;
-            moonlightActiveTimeFloatField.RegisterValueChangedCallback((callback) => MoonlightActiveTimeValueChanged(callback));
+            moonlightActiveTimeFloatField.RegisterValueChangedCallback(MoonlightActiveTimeValueChanged);
 
             #endregion
 
@@ -119,11 +119,11 @@ namespace UnderTheMoonlight.Editor
             moonlightInactiveTimeField.lowValue = moonlightTimeMin;
             moonlightInactiveTimeField.highValue = moonlightTimeMax;
             moonlightInactiveTimeField.value = moonlightInactiveTime.floatValue;
-            moonlightInactiveTimeField.RegisterValueChangedCallback((callback) => MoonlightInactiveTimeValueChanged(callback));
+            moonlightInactiveTimeField.RegisterValueChangedCallback(MoonlightInactiveTimeValueChanged);
 
             moonlightInactiveTimeFloatField = classElements.Q<FloatField>("moonlightInactiveValue");
             moonlightInactiveTimeFloatField.value = moonlightInactiveTime.floatValue;
-            moonlightInactiveTimeFloatField.RegisterValueChangedCallback((callback) => MoonlightInactiveTimeValueChanged(callback));
+            moonlightInactiveTimeFloatField.RegisterValueChangedCallback(MoonlightInactiveTimeValueChanged);
 
             #endregion
 

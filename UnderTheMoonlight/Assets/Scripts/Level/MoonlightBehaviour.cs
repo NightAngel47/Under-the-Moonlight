@@ -18,33 +18,32 @@ namespace UnderTheMoonlight.Level
         public WerewolfTransformation ExitMoonlight;
 
         // Params
-        [SerializeField] private bool isMoonlightActive = true;
-        [SerializeField] private bool useTimer = false;
+        [SerializeField] public bool isMoonlightActive = true;
+        [SerializeField] public bool useTimer = false;
 
-        [SerializeField, Range(0.5f, 120f)] private float moonlightActiveTime = 1f;
-        [SerializeField, Range(0.5f, 120f)] private float moonlightInactiveTime = 1f;
+        [SerializeField, Range(1f, 120f)] public float moonlightActiveTime = 1f;
+        [SerializeField, Range(1f, 120f)] public float moonlightInactiveTime = 1f;
 
         // Variables
         private float _currentTimerCount = 0f;
+        
+        private static readonly int IsActive = Animator.StringToHash("IsActive");
+        private static readonly int StartActive = Animator.StringToHash("StartActive");
+        private static readonly int GoToStart = Animator.StringToHash("GoToStart");
 
         private void Awake()
         {
             animator = GetComponent<Animator>();
-            animator.SetBool("IsActive", isMoonlightActive);
-            animator.SetBool("StartActive", isMoonlightActive);
-            animator.SetTrigger("GoToStart");
+            animator.SetBool(IsActive, isMoonlightActive);
+            animator.SetBool(StartActive, isMoonlightActive);
+            animator.SetTrigger(GoToStart);
         }
 
         private void Start()
         {
-            //_collider2D = GetComponent<BoxCollider2D>();
-            //_spriteRenderer = GetComponent<SpriteRenderer>();
-
-            //_spriteRenderer.enabled = isMoonlightActive;
-            //_collider2D.enabled = isMoonlightActive;
-
             if (useTimer)
             {
+                Debug.Log("here");
                 StartCoroutine(MoonlightTimer());
             }
         }
@@ -62,9 +61,7 @@ namespace UnderTheMoonlight.Level
         private void ToggleMoonlight()
         {
             isMoonlightActive = !isMoonlightActive;
-            animator.SetBool("IsActive", isMoonlightActive);
-            //_spriteRenderer.enabled = isMoonlightActive;
-            //_collider2D.enabled = isMoonlightActive;
+            animator.SetBool(IsActive, isMoonlightActive);
         }
 
         private void OnTriggerEnter2D(Collider2D other)

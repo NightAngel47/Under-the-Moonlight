@@ -10,6 +10,11 @@ namespace UnderTheMoonlight.Level
     
         private void Awake()
         {
+            SpawnPlayer();
+        }
+
+        private void SpawnPlayer()
+        {
             PlayerCharacterInput playerInput = FindObjectOfType<PlayerCharacterInput>();
             if (!playerInput)
                 Instantiate(player, transform.position, quaternion.identity);

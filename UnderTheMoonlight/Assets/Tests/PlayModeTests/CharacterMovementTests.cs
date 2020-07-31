@@ -1,4 +1,5 @@
 ﻿using System.Collections;
+using NSubstitute;
 using NUnit.Framework;
 using UnderTheMoonlight.Characters;
 using UnityEngine;
@@ -8,14 +9,13 @@ namespace UnderTheMoonlight.Tests.PlayModeTests
 {
     public class CharacterMovementTests
     {
-        private GameObject characterGameObject = new GameObject();
         private CharacterMovement characterMovement;
         
         [SetUp]
         public void BeforeEveryTest()
         {
             Time.timeScale = 20f;
-            characterGameObject = new GameObject();
+            GameObject characterGameObject = new GameObject();
             characterMovement = characterGameObject.AddComponent<CharacterMovement>();
         }
         
@@ -86,7 +86,7 @@ namespace UnderTheMoonlight.Tests.PlayModeTests
 
             yield return new WaitUntil(() => characterMovement.movementDir == Vector3.zero);
             
-            Assert.AreEqual(Vector3.up, characterGameObject.transform.position);
+            Assert.AreEqual(Vector3.up, characterMovement.transform.position);
         }
         
         [UnityTest]
@@ -96,7 +96,7 @@ namespace UnderTheMoonlight.Tests.PlayModeTests
 
             yield return new WaitUntil(() => characterMovement.movementDir == Vector3.zero);
             
-            Assert.AreEqual(Vector3.down, characterGameObject.transform.position);
+            Assert.AreEqual(Vector3.down, characterMovement.transform.position);
         }
         
         [UnityTest]
@@ -106,7 +106,7 @@ namespace UnderTheMoonlight.Tests.PlayModeTests
 
             yield return new WaitUntil(() => characterMovement.movementDir == Vector3.zero);
             
-            Assert.AreEqual(Vector3.left, characterGameObject.transform.position);
+            Assert.AreEqual(Vector3.left, characterMovement.transform.position);
         }
         
         [UnityTest]
@@ -116,7 +116,7 @@ namespace UnderTheMoonlight.Tests.PlayModeTests
 
             yield return new WaitUntil(() => characterMovement.movementDir == Vector3.zero);
             
-            Assert.AreEqual(Vector3.right, characterGameObject.transform.position);
+            Assert.AreEqual(Vector3.right, characterMovement.transform.position);
         }
         
         [UnityTest]
@@ -126,7 +126,7 @@ namespace UnderTheMoonlight.Tests.PlayModeTests
 
             yield return new WaitUntil(() => characterMovement.movementDir == Vector3.zero);
             
-            Assert.AreEqual(Vector3.zero, characterGameObject.transform.position);
+            Assert.AreEqual(Vector3.zero, characterMovement.transform.position);
         }
         
         [UnityTest]
@@ -136,7 +136,7 @@ namespace UnderTheMoonlight.Tests.PlayModeTests
 
             yield return new WaitUntil(() => characterMovement.movementDir == Vector3.zero);
             
-            Assert.AreEqual(Vector3.zero, characterGameObject.transform.position);
+            Assert.AreEqual(Vector3.zero, characterMovement.transform.position);
         }
     }
 }
