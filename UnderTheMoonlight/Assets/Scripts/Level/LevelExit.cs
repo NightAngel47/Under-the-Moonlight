@@ -1,29 +1,32 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections;
+using UnderTheMoonlight.Characters;
+using UnderTheMoonlight.Managers;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class LevelExit : MonoBehaviour
+namespace UnderTheMoonlight.Level
 {
-    [SerializeField] private float loadDelay = 3;
-
-    public UnityEvent ExitReached;
-
-    public void OnTriggerEnter2D(Collider2D other)
+    public class LevelExit : MonoBehaviour
     {
-        if (other.TryGetComponent(out PlayerCharacterInput player))
-            StartCoroutine(ExitCoroutine());
-    }
+        [SerializeField] private float loadDelay = 3;
 
-    /// <summary> Triggers the ExitReached event. </summary>
-    /// <returns></returns>
-    private IEnumerator ExitCoroutine()
-    {
-        ExitReached?.Invoke();
+        public UnityEvent ExitReached;
 
-        yield return new WaitForSeconds(loadDelay);
+        public void OnTriggerEnter2D(Collider2D other)
+        {
+            if (other.TryGetComponent(out PlayerCharacterInput player))
+                StartCoroutine(ExitCoroutine());
+        }
 
-        GameManager.Instance.LoadNextLevel();
+        /// <summary> Triggers the ExitReached event. </summary>
+        /// <returns></returns>
+        private IEnumerator ExitCoroutine()
+        {
+            ExitReached?.Invoke();
+
+            yield return new WaitForSeconds(loadDelay);
+
+            GameManager.Instance.LoadNextLevel();
+        }
     }
 }

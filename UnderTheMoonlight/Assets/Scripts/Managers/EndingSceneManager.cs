@@ -1,21 +1,20 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.SceneManagement;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
-public class EndingSceneManager : MonoBehaviour
+namespace UnderTheMoonlight.Managers
 {
-    [SerializeField] private Button mainMenuButton = null;
-
-    private void OnEnable()
+    public class EndingSceneManager : MonoBehaviour
     {
-        mainMenuButton.onClick.AddListener(() => GameManager.Instance.LoadMainMenu());
-    }
+        [SerializeField] private Button mainMenuButton = null;
 
-    private void OnDisable()
-    {
-        mainMenuButton.onClick.RemoveListener(() => GameManager.Instance.LoadMainMenu());
+        private void OnEnable()
+        {
+            mainMenuButton.onClick.AddListener(() => GameManager.Instance.LoadMainMenu());
+        }
+
+        private void OnDisable()
+        {
+            mainMenuButton.onClick.RemoveListener(() => GameManager.Instance.LoadMainMenu());
+        }
     }
 }

@@ -1,18 +1,20 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using UnderTheMoonlight.Characters;
 using Unity.Mathematics;
 using UnityEngine;
 
-public class LevelStart : MonoBehaviour
+namespace UnderTheMoonlight.Level
 {
-    [SerializeField] private GameObject player = null;
-    
-    private void Awake()
+    public class LevelStart : MonoBehaviour
     {
-        PlayerCharacterInput playerInput = FindObjectOfType<PlayerCharacterInput>();
-        if (!playerInput)
-            Instantiate(player, transform.position, quaternion.identity);
-        else
-            playerInput.transform.position = transform.position;
+        [SerializeField] private GameObject player = null;
+    
+        private void Awake()
+        {
+            PlayerCharacterInput playerInput = FindObjectOfType<PlayerCharacterInput>();
+            if (!playerInput)
+                Instantiate(player, transform.position, quaternion.identity);
+            else
+                playerInput.transform.position = transform.position;
+        }
     }
 }

@@ -1,9 +1,10 @@
 ﻿using System.Collections;
 using NUnit.Framework;
+using UnderTheMoonlight.Characters;
 using UnityEngine;
 using UnityEngine.TestTools;
 
-namespace Tests.PlayModeTests
+namespace UnderTheMoonlight.Tests.PlayModeTests
 {
     public class CharacterMovementTests
     {
