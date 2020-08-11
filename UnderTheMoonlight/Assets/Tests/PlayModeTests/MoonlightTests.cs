@@ -11,11 +11,25 @@ namespace UnderTheMoonlight.Tests.PlayModeTests
         private readonly GameObject moonlightGameObject = new GameObject();
         private MoonlightBehaviour moonlight;
 
-        [SetUp]
-        public void BeforeEveryTest()
+        [OneTimeSetUp]
+        public void TestSetup()
         {
             Time.timeScale = 20f;
+        }
+        
+        [SetUp]
+        public void SetUp()
+        {
             moonlightGameObject.AddComponent<Animator>();
+        }
+        
+        [OneTimeTearDown]
+        public void TestTearDown()
+        {
+            foreach (var gameObject in Object.FindObjectsOfType<GameObject>())
+            {
+                gameObject.SetActive(false);
+            }
         }
 
         [UnityTest]

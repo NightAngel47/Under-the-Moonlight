@@ -10,13 +10,27 @@ namespace UnderTheMoonlight.Tests.PlayModeTests
     public class CharacterMovementTests
     {
         private CharacterMovement characterMovement;
-        
-        [SetUp]
-        public void BeforeEveryTest()
+
+        [OneTimeSetUp]
+        public void TestSetup()
         {
             Time.timeScale = 20f;
+        }
+        
+        [SetUp]
+        public void SetUp()
+        {
             GameObject characterGameObject = new GameObject();
             characterMovement = characterGameObject.AddComponent<CharacterMovement>();
+        }
+        
+        [OneTimeTearDown]
+        public void TestTearDown()
+        {
+            foreach (var gameObject in Object.FindObjectsOfType<GameObject>())
+            {
+                gameObject.SetActive(false);
+            }
         }
         
         [UnityTest]
