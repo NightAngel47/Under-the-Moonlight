@@ -10,7 +10,7 @@ namespace UnderTheMoonlight.Characters
         protected Animator animator = null;
 
         [SerializeField] protected float movementSpeed = 1f;
-        [SerializeField] public LayerMask impassableLayers { get; protected set; } = 0;
+        [SerializeField] public LayerMask impassableLayers = 0;
 
         protected Vector3 previousDir = Vector3.zero;
         [HideInInspector] public Vector3 movementDir { get; protected set; } = Vector3.zero;

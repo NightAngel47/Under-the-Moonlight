@@ -42,10 +42,7 @@ namespace UnderTheMoonlight.Level
         private void Start()
         {
             if (useTimer)
-            {
-                Debug.Log("here");
                 StartCoroutine(MoonlightTimer());
-            }
         }
 
         private IEnumerator MoonlightTimer()
