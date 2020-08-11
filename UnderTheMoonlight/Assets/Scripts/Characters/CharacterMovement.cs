@@ -49,8 +49,11 @@ namespace UnderTheMoonlight.Characters
                 movementDir = newDir;
                 movementTarget = transform.position + movementDir;
 
-                if (movementDir.x != 0 && Mathf.Sign(movementDir.x) != Mathf.Sign(transform.localScale.x))
-                    transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
+                var transformScale = transform.localScale;
+                if (movementDir.x != 0 && Mathf.Sign(movementDir.x) != Mathf.Sign(transformScale.x))
+                {
+                    transform.localScale = new Vector3(-transformScale.x, transformScale.y, transformScale.z);
+                }
             }
         }
 
