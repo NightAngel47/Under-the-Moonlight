@@ -1,87 +1,88 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class GameManager : MonoBehaviour
+namespace UnderTheMoonlight.Managers
 {
-    public static GameManager Instance { get; private set; } = null;
-
-    [SerializeField] private GameObject musicPlayerPrefab = null; 
-
-    [Space]
-
-    [SerializeField] private int firstLevelBuildIndex = 0;
-
-    private int levelIndex = 0;
-
-    private void Awake()
+    public class GameManager : MonoBehaviour
     {
-        if (Instance == null)
-            Instance = this;
-        else if(Instance != this)
-            Destroy(gameObject);
+        public static GameManager Instance { get; private set; } = null;
 
-        DontDestroyOnLoad(gameObject);
-    }
+        [SerializeField] private GameObject musicPlayerPrefab = null; 
 
-    private void OnEnable()
-    {
-        SceneManager.sceneLoaded += CheckToLoadPauseMenu;
-    }
+        [Space]
 
-    private void OnDisable()
-    {
-        SceneManager.sceneLoaded -= CheckToLoadPauseMenu;
-    }
+        [SerializeField] private int firstLevelBuildIndex = 0;
 
-    private void Start()
-    {
-        if (MusicPlayerBehavior.Instance == null)
-            Instantiate(musicPlayerPrefab, Vector3.zero, Quaternion.identity);
+        private int levelIndex = 0;
 
-        Scene startingScene = SceneManager.GetActiveScene();
-        levelIndex = startingScene.buildIndex;
+        private void Awake()
+        {
+            if (Instance == null)
+                Instance = this;
+            else if(Instance != this)
+                Destroy(gameObject);
 
-        CheckToLoadPauseMenu(startingScene, LoadSceneMode.Single);
-    }
+            DontDestroyOnLoad(gameObject);
+        }
 
-    public void StartGameAtFirstLevel()
-    {
-        levelIndex = firstLevelBuildIndex;
-        SceneManager.LoadScene(levelIndex);
-    }
+        private void OnEnable()
+        {
+            SceneManager.sceneLoaded += CheckToLoadPauseMenu;
+        }
 
-    /// <summary> Checks to see if the pause menu should be loaded. </summary>
-    /// <param name="loadedScene"> Scene that is loaded. </param>
-    /// <param name="loadMode"> The mode in which the scene is loaded. </param>
-    private void CheckToLoadPauseMenu(Scene loadedScene, LoadSceneMode loadMode)
-    {
-        if (!loadedScene.name.Contains("Menu_") && loadMode == LoadSceneMode.Single)
-            SceneManager.LoadScene("Menu_Pause", LoadSceneMode.Additive);
-    }
+        private void OnDisable()
+        {
+            SceneManager.sceneLoaded -= CheckToLoadPauseMenu;
+        }
 
-    /// <summary> Loads the next levl in the build index. </summary>
-    public void LoadNextLevel()
-    {
-        levelIndex++;
-        if (levelIndex < SceneManager.sceneCountInBuildSettings)
+        private void Start()
+        {
+            if (MusicPlayerBehavior.Instance == null)
+                Instantiate(musicPlayerPrefab, Vector3.zero, Quaternion.identity);
+
+            Scene startingScene = SceneManager.GetActiveScene();
+            levelIndex = startingScene.buildIndex;
+
+            CheckToLoadPauseMenu(startingScene, LoadSceneMode.Single);
+        }
+
+        public void StartGameAtFirstLevel()
+        {
+            levelIndex = firstLevelBuildIndex;
             SceneManager.LoadScene(levelIndex);
-        else
-            LoadMainMenu();
-    }
+        }
 
-    /// <summary> Loads the Main Menu. </summary>
-    public void LoadMainMenu()
-    {
-        levelIndex = 0;
+        /// <summary> Checks to see if the pause menu should be loaded. </summary>
+        /// <param name="loadedScene"> Scene that is loaded. </param>
+        /// <param name="loadMode"> The mode in which the scene is loaded. </param>
+        private void CheckToLoadPauseMenu(Scene loadedScene, LoadSceneMode loadMode)
+        {
+            if (!loadedScene.name.Contains("Menu_") && loadMode == LoadSceneMode.Single)
+                SceneManager.LoadScene("Menu_Pause", LoadSceneMode.Additive);
+        }
 
-        SceneManager.LoadScene(levelIndex);
-    }
+        /// <summary> Loads the next levl in the build index. </summary>
+        public void LoadNextLevel()
+        {
+            levelIndex++;
+            if (levelIndex < SceneManager.sceneCountInBuildSettings)
+                SceneManager.LoadScene(levelIndex);
+            else
+                LoadMainMenu();
+        }
 
-    /// <summary> Closes the application. </summary>
-    public void Quit()
-    {
-        Application.Quit();
+        /// <summary> Loads the Main Menu. </summary>
+        public void LoadMainMenu()
+        {
+            levelIndex = 0;
+
+            SceneManager.LoadScene(levelIndex);
+        }
+
+        /// <summary> Closes the application. </summary>
+        public void Quit()
+        {
+            Application.Quit();
+        }
     }
 }
