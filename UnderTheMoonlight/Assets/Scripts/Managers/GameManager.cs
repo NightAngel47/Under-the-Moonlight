@@ -7,7 +7,8 @@ namespace UnderTheMoonlight.Managers
     {
         public static GameManager Instance { get; private set; } = null;
 
-        [SerializeField] private GameObject musicPlayerPrefab = null; 
+        [SerializeField] private GameObject musicPlayerPrefab = null;
+        [SerializeField] private VolumeManager volManager = null;
 
         [Space]
 
@@ -64,6 +65,8 @@ namespace UnderTheMoonlight.Managers
         /// <summary> Loads the next levl in the build index. </summary>
         public void LoadNextLevel()
         {
+            volManager.Initalize();
+            
             levelIndex++;
             if (levelIndex < SceneManager.sceneCountInBuildSettings)
                 SceneManager.LoadScene(levelIndex);

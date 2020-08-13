@@ -19,7 +19,7 @@ namespace UnderTheMoonlight.Managers
         [SerializeField] private float volMusic = 0f;
         [SerializeField] private float volCharacters = 0f;
         [SerializeField] private float volEffects = 0f;
-
+        
         /// <summary> Initalizes the volume settings. </summary>
         public void Initalize()
         {
@@ -28,7 +28,7 @@ namespace UnderTheMoonlight.Managers
             SetLevel(volMasterName, volMaster);
             SetLevel(volMusicName, volMusic);
             SetLevel(volCharactersName, volCharacters);
-            SetLevel(volMasterName, volMaster);
+            SetLevel(volEffectsName, volEffects);
         }
 
         /// <summary> Saves the volume settings if the game is not running on webGL. </summary>
@@ -64,17 +64,25 @@ namespace UnderTheMoonlight.Managers
         {
             //if (!audioMix.GetFloat(volumeName, out level))
             //Debug.LogWarning("The parameter " + volumeName + " is not known the audio mix " + audioMix.name + ". The ref float level will not be set.");
-
-            if (volumeName == volMasterName)
-                level = volMaster;
-            else if (volumeName == volMusicName)
-                level = volMusic;
-            else if (volumeName == volCharactersName)
-                level = volCharacters;
-            else if (volumeName == volEffectsName)
-                level = volEffects;
-            else
-                Debug.LogWarning("The parameter " + volumeName + " is not known the audio mix " + audioMix.name + ". \nref float level will not be set.");
+            
+            switch (volumeName)
+            {
+                case volMasterName:
+                    level = volMaster;
+                    break;
+                case volMusicName:
+                    level = volMusic;
+                    break;
+                case volCharactersName:
+                    level = volCharacters;
+                    break;
+                case volEffectsName:
+                    level = volEffects;
+                    break;
+                default:
+                    Debug.LogWarning("The parameter " + volumeName + " is not known the audio mix " + audioMix.name + ". \nref float level will not be set.");
+                    break;
+            }
 
 
             //Debug.Log(volumeName + " : " + level);
@@ -87,14 +95,21 @@ namespace UnderTheMoonlight.Managers
         {
             audioMix.SetFloat(volumeName, level);
 
-            if (volumeName == volMasterName)
-                volMaster = level;
-            else if (volumeName == volMusicName)
-                volMusic = level;
-            else if (volumeName == volCharactersName)
-                volCharacters = level;
-            else if (volumeName == volEffectsName)
-                volEffects = level;
+            switch (volumeName)
+            {
+                case volMasterName:
+                    volMaster = level;
+                    break;
+                case volMusicName:
+                    volMusic = level;
+                    break;
+                case volCharactersName:
+                    volCharacters = level;
+                    break;
+                case volEffectsName:
+                    volEffects = level;
+                    break;
+            }
         }
     }
 }
