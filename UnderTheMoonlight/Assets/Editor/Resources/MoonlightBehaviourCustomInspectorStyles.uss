@@ -1,0 +1,9 @@
+.field-width-23-px {
+	width: 50px;
+
+	padding: 1px,3px,0px,3px;
+}
+
+.spacer {
+	height: 10px;
+}

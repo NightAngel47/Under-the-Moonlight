@@ -1,46 +1,70 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
+﻿using UnderTheMoonlight.Managers;
 using UnityEngine;
-using UnityEngine.Experimental.GlobalIllumination;
 using UnityEngine.SceneManagement;
 
-public class MusicPlayerBehavior : MonoBehaviour
+namespace UnderTheMoonlight
 {
-    public static MusicPlayerBehavior Instance { get; private set; } = null;
-
-    private AudioSource source = null;
-
-    private void Awake()
+    public class MusicPlayerBehavior : MonoBehaviour
     {
-        if (Instance == null)
-            Instance = this;
-        else if (Instance != this)
-            Destroy(gameObject);
+        public static MusicPlayerBehavior Instance { get; private set; } = null;
 
-        DontDestroyOnLoad(gameObject);
+        [SerializeField] private PauseMenuManager pauseManager = null;
+        private AudioSource source = null;
 
-        source = GetComponent<AudioSource>();
-    }
+        [Space]
 
-    private void OnEnable()
-    {
-        SceneManager.sceneLoaded += CheckNewScene;
-    }
+        [Min(1f)]
+        [SerializeField] private float volDividerWhilePaused = 2f;
+        private float startVol = 1f;
 
-    private void OnDisable()
-    {
-        SceneManager.sceneLoaded -= CheckNewScene;
-    }
+        private void Awake()
+        {
+            if (Instance == null)
+                Instance = this;
+            else if (Instance != this)
+                Destroy(gameObject);
 
-    /// <summary> Check when a new scene is loaded. </summary>
-    /// <param name="scene"> Scene loaded. </param>
-    /// <param name="mode"> Mode the scene was loaded using. </param>
-    private void CheckNewScene(Scene scene, LoadSceneMode mode)
-    {
-        if (scene.name == "Ending")
-            source.Stop();
-        else if (!source.isPlaying)
-            source.Play();
+            DontDestroyOnLoad(gameObject);
+
+            source = GetComponent<AudioSource>();
+            startVol = source.volume;
+        }
+
+        private void OnEnable()
+        {
+            SceneManager.sceneLoaded += CheckNewScene;
+
+            pauseManager.PauseMenuStateChanged.AddListener((isPaused) => ChangeVolumeForPauseMenu(isPaused));
+        }
+
+        private void OnDisable()
+        {
+            SceneManager.sceneLoaded -= CheckNewScene;
+
+            pauseManager.PauseMenuStateChanged.RemoveListener((isPaused) => ChangeVolumeForPauseMenu(isPaused));
+        }
+
+        private void Start()
+        {
+            CheckNewScene(SceneManager.GetActiveScene(), LoadSceneMode.Single);
+        }
+
+        /// <summary> Check when a new scene is loaded. </summary>
+        /// <param name="scene"> Scene loaded. </param>
+        /// <param name="mode"> Mode the scene was loaded using. </param>
+        private void CheckNewScene(Scene scene, LoadSceneMode mode)
+        {
+            if (scene.name.Contains("Ending"))
+                source.Stop();
+            else if (!source.isPlaying)
+                source.Play();
+        }
+
+        /// <summary> Changes the volume of the game when the game is paused or unpaused. </summary>
+        /// <param name="isPaused"> Is the game paused? </param>
+        private void ChangeVolumeForPauseMenu(bool isPaused)
+        {
+            source.volume = isPaused ? startVol / volDividerWhilePaused : startVol;
+        }
     }
 }

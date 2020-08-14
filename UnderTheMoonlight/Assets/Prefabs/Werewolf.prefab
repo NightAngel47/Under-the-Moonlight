@@ -152,7 +152,7 @@ AudioSource:
     type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -248,6 +248,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69dffb2bf3d129143bec517c7df354b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pitchRange: {x: 1, y: 1}
   transformationWerewolf: {fileID: 8300000, guid: 44e2a44767bca3f4eaa25b2c52d29385,
     type: 3}
   transformationHuman: {fileID: 8300000, guid: f0c16135fa419084098303b35c2ad4c0, type: 3}
@@ -318,7 +319,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -666304177
+  m_SortingLayerID: 2001484347
   m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 3881526963732733517, guid: 5a50566d3a5389545beeb9a614cd2314,

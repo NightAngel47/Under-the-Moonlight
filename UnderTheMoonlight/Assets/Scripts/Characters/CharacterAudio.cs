@@ -1,13 +1,14 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class CharacterAudio : MonoBehaviour
+namespace UnderTheMoonlight.Characters
 {
-    protected AudioSource source = null;
-
-    private void Awake()
+    public class CharacterAudio : MonoBehaviour
     {
-        source = GetComponent<AudioSource>();
+        protected AudioSource source = null;
+
+        private void Awake()
+        {
+            source = GetComponent<AudioSource>();
+        }
     }
 }

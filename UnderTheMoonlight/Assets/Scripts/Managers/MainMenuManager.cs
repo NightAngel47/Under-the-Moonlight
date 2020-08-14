@@ -1,37 +1,31 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class MainMenuManager : MonoBehaviour
+namespace UnderTheMoonlight.Managers
 {
-    [SerializeField] private GameObject quitButton = null;
-    
-    private void Awake()
+    public class MainMenuManager : MonoBehaviour
     {
-        #if UNITY_WEBGL
-        if (quitButton != null)
-            quitButton.SetActive(false);
-        #endif
-    }
+        [SerializeField] private VolumeManager volManager = null;
 
-    public void StartGameOnClick()
-    {
-        GameManager.Instance.StartGame();
-    }
+        [Space]
 
-    public void OpenHowToPlay()
-    {
+        [SerializeField] private GameObject quitButton = null;
 
-    }
+        private void Start()
+        {
+            volManager.Initalize();
 
-    public void OpenSettingsWindow()
-    {
+            if (Application.platform == RuntimePlatform.WebGLPlayer && quitButton != null)
+                quitButton.SetActive(false);
+        }
 
-    }
+        public void StartGameOnClick()
+        {
+            GameManager.Instance.StartGameAtFirstLevel();
+        }
 
-    public void QuitGameOnClick()
-    {
-        GameManager.Instance.Quit();
+        public void QuitGameOnClick()
+        {
+            GameManager.Instance.Quit();
+        }
     }
 }
