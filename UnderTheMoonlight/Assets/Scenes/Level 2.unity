@@ -188,6 +188,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Candle Light Right Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 8421737392276515369, guid: 4b843002946b74e45bb57097a730a77c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4b843002946b74e45bb57097a730a77c, type: 3}
 --- !u!4 &26433597 stripped
