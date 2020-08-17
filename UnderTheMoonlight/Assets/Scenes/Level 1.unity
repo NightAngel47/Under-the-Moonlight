@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -478,6 +478,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SpriteTilingProperty.drawMode
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7226255610824043343, guid: f1be3ad2e57d8d5498ed5730d5491a58,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1be3ad2e57d8d5498ed5730d5491a58, type: 3}
@@ -1216,6 +1221,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Candle Light Right Variant (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8421737392276515369, guid: 4b843002946b74e45bb57097a730a77c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4b843002946b74e45bb57097a730a77c, type: 3}
@@ -2768,6 +2778,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7226255610824043343, guid: f1be3ad2e57d8d5498ed5730d5491a58,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1be3ad2e57d8d5498ed5730d5491a58, type: 3}
 --- !u!1001 &1853819285
@@ -3685,6 +3700,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118012493350502859, guid: 565ab50a50dc124409b74eb506e31e91,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118012493350502859, guid: 565ab50a50dc124409b74eb506e31e91,
+        type: 3}
+      propertyPath: weight
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 565ab50a50dc124409b74eb506e31e91, type: 3}
